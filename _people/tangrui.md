@@ -2,9 +2,6 @@
 name: Rui Tang
 photo: tangrui.jpg
 info: Undergraduate
-research_interests:
-  - Knowledge Editing
-  - Knowledge Memory and Update of LLMs
 category: undergraduate
 
 # homepage: https://example.com

@@ -2,10 +2,6 @@
 name: Haowen Li
 photo: haowenli.jpg
 info: PhD Student, w/ Xueqi Cheng
-research_interests:
-  - Recommender Systems
-  - Data Minimization
-  - Machine Unlearning
 category: phd
 homepage: https://gosgjkaj.github.io
 email: gosgjkaj@gmail.com

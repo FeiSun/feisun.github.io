@@ -2,10 +2,6 @@
 name: Jiajun Tan
 photo: jiajun.jpg
 info: PhD Student, w/ Huawei Shen
-research_interests:
-  - Machine Unlearning
-  - Knowledge Manuplating in LLMs
-  - Graph Neural Networks
 category: phd
 homepage: https://sumsky21.github.io
 email: jerrrrytan@gmail.com

@@ -2,10 +2,6 @@
 name: Xun Liu
 photo: xun.jpg
 info: Undergraduate
-research_interests:
-  - Adversarial ML
-  - AI Red-teaming
-  - Language Agents
 category: undergraduate
 
 homepage: https://antiquality.github.io
