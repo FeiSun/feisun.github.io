@@ -103,7 +103,7 @@ layout: default
           {% assign members = category[1] %}
           {% if members.size > 0 %}
             {% if total_categories > 1 %}
-              <div class="col-lg-3 col-md-4 col-sm-12 justify-content-center">
+              <div class="col-lg-3 col-md-5 col-sm-12 justify-content-center">
                 <h3 class="mt-4">{{ cat_key }}</h3>
                 {% for member in members %}
                   <div class="mb-3">
@@ -129,7 +129,7 @@ layout: default
                   {% assign half_member = half_member | plus: 1 %}
                 {% endif %}
                 <div class="row justify-content-center">
-                  <div class="col-md-4">
+                  <div class="col-md-5">
                     {% for member in members limit: half_member %}
                       <div class="mb-3">
                         {% if member.url %}
@@ -146,7 +146,7 @@ layout: default
                       </div>
                     {% endfor %}
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-5">
                     {% for member in members offset: half_member %}
                       <div class="mb-3">
                         {% if member.url %}
