@@ -1,9 +1,61 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"ACL":
+  url: https://aclanthology.org/venues/acl
+  color: "#F25D27"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ACL (Findings)":
+  url: https://aclanthology.org/venues/acl
+  color: "#F25D27"
 
-"Vision":
-  color: "#009f36"
+"EMNLP":
+  url: https://aclanthology.org/venues/emnlp
+  color: "#F25D27"
+
+"EMNLP (Findings)":
+  url: https://aclanthology.org/venues/emnlp
+  color: "#F25D27"
+
+"WebConf":
+  color: "#F25D27"
+
+"WebConf (Short)":
+  color: "#F25D27"
+
+"NeurIPS":
+  url: https://neurips.cc
+  color: "#F25D27"
+
+"CIKM":
+  url: http://www.cikmconference.org
+  color: "#F25D27"
+
+"RecSys":
+  url: https://recsys.acm.org
+  color: "#F25D27"
+
+"ICDE":
+  url: https://ieeexplore.ieee.org/xpl/conhome/1000178/all-proceedings
+  color: "#F25D27"
+
+"SIGIR":
+  url: https://sigir.org
+  color: "#F25D27"
+
+"KDD":
+  url: https://www.kdd.org/
+  color: "#F25D27"
+
+"WSDM":
+  url: https://www.wsdm-conference.org/
+  color: "#F25D27"
+
+"IJCAI":
+  url: https://www.ijcai.org/
+  color: "#F25D27"
+
+"TOIS":
+  url: https://dl.acm.org/journal/tois
+  color: "#4E52A6"
+
+"CSUR":
+  url: https://dl.acm.org/journal/csur
+  color: "#4E52A6"
