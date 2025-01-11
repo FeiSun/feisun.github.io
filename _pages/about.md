@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Associate professor @ ICT, CAS • <strong>Previously:</strong> Alibaba.
+subtitle: <strong>Associate professor</strong> @ <a href="http://english.ict.cas.cn/">ICT, CAS</a> • <strong>Previously:</strong> Alibaba.
 
 profile:
   align: right
