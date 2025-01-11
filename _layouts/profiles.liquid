@@ -4,8 +4,8 @@ layout: default
 <div class="container">
   <div class="row text-center justify-content-center">
     <!-- Faculty Section -->
-    {% assign categories = 'faculty,phd,master,undergraduate' | split: ',' %}
-    {% assign category_names = 'Faculty,PhD Students,Master Students,Undergraduate Students' | split: ',' %}
+    {% assign categories = 'phd,master,undergraduate' | split: ',' %}
+    {% assign category_names = 'PhD Students,Master Students,Undergraduate Students' | split: ',' %}
     {% for category in categories %}
       {% assign index = forloop.index0 %}
       <div class="col-md-12">
