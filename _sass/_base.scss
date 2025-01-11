@@ -1390,178 +1390,178 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 // font
-body {
-  font-size: 1rem;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
-  line-height: 170%;
-}
-
-pre,
-code,
-kbd,
-samp {
-  font-family: "Roboto Mono";
-  color: var(--global-text-color);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  line-height: 120%;
-}
-h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-h2.small {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 1.875rem;
-  margin-bottom: 20px;
-}
-
-h3 {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.5em;
-  font-weight: 600;
-  margin-bottom: 16px;
-}
-h4 {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.25rem;
-  font-weight: 500;
-  margin-bottom: 16px;
-}
-
-h5 {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.125rem;
-  font-weight: 500;
-  margin-bottom: 16px;
-}
-
-h6 {
-  font-family: "Poppins", sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  margin-bottom: 16px;
-}
-
-p {
-  font-size: 1rem;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
-  line-height: 170%;
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-p.subtitle {
-  font-size: 1.125em;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
-  line-height: 170%;
-}
-p.small {
-  font-size: 0.875em;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
-  line-height: 170%;
-}
-a {
-  color: var(--global-theme-color);
-  font-weight: 500;
-  text-decoration: none;
-}
-a:hover,
-a:focus {
-  color: var(--global-theme-color);
-  text-decoration: underline;
-}
-
-.nav-button {
-  font-weight: 800 !important;
-}
-
-strong {
-  font-weight: bold !important;
-}
-
-table td {
-  font-weight: 400 !important;
-}
-
-// spacer
-.spacer {
-  margin-bottom: 100px;
-}
-
-// project
-.project-img {
-  padding: 0 !important;
-}
-
-.project-img-card {
-  padding: 20px !important;
-}
-
-.project-title {
-  font-family: "Poppins", sans-serif !important;
-  font-weight: 500 !important;
-  font-size: 2rem !important;
-  line-height: 120% !important;
-}
-
-.project-btn {
-  background-color: transparent !important;
-  color: var(--global-theme-color) !important;
-  border: 2px solid var(--global-theme-color) !important;
-  font-weight: 500 !important;
-  text-transform: none !important;
-  box-shadow: none !important;
-  margin: 0 !important;
-  padding: 10px 10px !important;
-}
-
-// card
-.card {
-  box-shadow: none !important;
-  border: 1px solid var(--global-divider-color) !important;
-}
-
-// for markdown
-// img{
-//   display: block;
-//   margin-left: auto;
-//   margin-right: auto;
+// body {
+//   font-size: 1rem;
+//   font-weight: 400;
+//   font-family: "Poppins", sans-serif;
+//   line-height: 170%;
 // }
 
-table {
-  margin: 1em 0;
-  border-collapse: collapse;
-}
+// pre,
+// code,
+// kbd,
+// samp {
+//   font-family: "Roboto Mono";
+//   color: var(--global-text-color);
+// }
 
-th,
-td {
-  padding: 0.5em 1em !important;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  text-align: left;
-}
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
+// .h1,
+// .h2,
+// .h3,
+// .h4,
+// .h5,
+// .h6 {
+//   line-height: 120%;
+// }
+// h1 {
+//   font-family: "Poppins", sans-serif;
+//   font-weight: 700;
+//   font-size: 2.5rem;
+//   margin-bottom: 20px;
+// }
+
+// h2 {
+//   font-family: "Poppins", sans-serif;
+//   font-weight: 700;
+//   font-size: 2rem;
+//   margin-bottom: 20px;
+// }
+// h2.small {
+//   font-family: "Poppins", sans-serif;
+//   font-weight: 700;
+//   font-size: 1.875rem;
+//   margin-bottom: 20px;
+// }
+
+// h3 {
+//   font-family: "Poppins", sans-serif;
+//   font-size: 1.5em;
+//   font-weight: 600;
+//   margin-bottom: 16px;
+// }
+// h4 {
+//   font-family: "Poppins", sans-serif;
+//   font-size: 1.25rem;
+//   font-weight: 500;
+//   margin-bottom: 16px;
+// }
+
+// h5 {
+//   font-family: "Poppins", sans-serif;
+//   font-size: 1.125rem;
+//   font-weight: 500;
+//   margin-bottom: 16px;
+// }
+
+// h6 {
+//   font-family: "Poppins", sans-serif;
+//   font-size: 1rem;
+//   font-weight: 500;
+//   margin-bottom: 16px;
+// }
+
+// p {
+//   font-size: 1rem;
+//   font-weight: 400;
+//   font-family: "Poppins", sans-serif;
+//   line-height: 170%;
+//   margin-top: 0;
+//   margin-bottom: 1rem;
+// }
+// p.subtitle {
+//   font-size: 1.125em;
+//   font-weight: 400;
+//   font-family: "Poppins", sans-serif;
+//   line-height: 170%;
+// }
+// p.small {
+//   font-size: 0.875em;
+//   font-weight: 400;
+//   font-family: "Poppins", sans-serif;
+//   line-height: 170%;
+// }
+// a {
+//   color: var(--global-theme-color);
+//   font-weight: 500;
+//   text-decoration: none;
+// }
+// a:hover,
+// a:focus {
+//   color: var(--global-theme-color);
+//   text-decoration: underline;
+// }
+
+// .nav-button {
+//   font-weight: 800 !important;
+// }
+
+// strong {
+//   font-weight: bold !important;
+// }
+
+// table td {
+//   font-weight: 400 !important;
+// }
+
+// // spacer
+// .spacer {
+//   margin-bottom: 100px;
+// }
+
+// // project
+// .project-img {
+//   padding: 0 !important;
+// }
+
+// .project-img-card {
+//   padding: 20px !important;
+// }
+
+// .project-title {
+//   font-family: "Poppins", sans-serif !important;
+//   font-weight: 500 !important;
+//   font-size: 2rem !important;
+//   line-height: 120% !important;
+// }
+
+// .project-btn {
+//   background-color: transparent !important;
+//   color: var(--global-theme-color) !important;
+//   border: 2px solid var(--global-theme-color) !important;
+//   font-weight: 500 !important;
+//   text-transform: none !important;
+//   box-shadow: none !important;
+//   margin: 0 !important;
+//   padding: 10px 10px !important;
+// }
+
+// // card
+// .card {
+//   box-shadow: none !important;
+//   border: 1px solid var(--global-divider-color) !important;
+// }
+
+// // for markdown
+// // img{
+// //   display: block;
+// //   margin-left: auto;
+// //   margin-right: auto;
+// // }
+
+// table {
+//   margin: 1em 0;
+//   border-collapse: collapse;
+// }
+
+// th,
+// td {
+//   padding: 0.5em 1em !important;
+//   border: 1px solid rgba(0, 0, 0, 0.1);
+//   text-align: left;
+// }
