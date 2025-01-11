@@ -9,7 +9,7 @@ layout: default
     {% for category in categories %}
       {% assign index = forloop.index0 %}
       <div class="col-md-12">
-        <h2>{{ category_names[index] }}</h2>
+        <h2 style="font-weight: 700;">{{ category_names[index] }}</h2>
         <div class="row justify-content-center">
           {% for person in site.people %}
             {% if person.category == category %}
@@ -93,7 +93,7 @@ layout: default
   </script>
   {% if total_categories > 0 %}
     <div class="col-md-12">
-      <h2 class="text-center">Alumni</h2>
+      <h2 class="text-center" style="font-weight: 700;">Alumni</h2>
     </div>
 
     <div class="col-md-12">
