@@ -401,7 +401,57 @@ ninja.data = [{
           section: "News",},{id: "news-we-will-hold-the-1st-workshop-on-human-centered-recommender-systems-on-www-25-contributions-are-welcome",
           title: 'We will hold The 1st Workshop on Human-Centered Recommender Systems on WWW 25....',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "people-chenzhenxing",
+          title: 'Chenzhenxing',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/chenzhenxing/";
+            },},{id: "people-haowenli",
+          title: 'Haowenli',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/haowenli/";
+            },},{id: "people-jiajun",
+          title: 'Jiajun',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/jiajun/";
+            },},{id: "people-pujiayue",
+          title: 'Pujiayue',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/pujiayue/";
+            },},{id: "people-shaliu",
+          title: 'Shaliu',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/shaliu/";
+            },},{id: "people-tangrui",
+          title: 'Tangrui',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/tangrui/";
+            },},{id: "people-tanhexiang",
+          title: 'Tanhexiang',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/tanhexiang/";
+            },},{id: "people-wanli",
+          title: 'Wanli',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/wanli/";
+            },},{id: "people-xunliu",
+          title: 'Xunliu',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/xunliu/";
+            },},{id: "people-zongdanyang",
+          title: 'Zongdanyang',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/zongdanyang/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
