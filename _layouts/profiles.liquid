@@ -1,36 +1,174 @@
 ---
-layout: page
+layout: default
 ---
-<div class="post">
-  <article>
-    {% if page.profiles %}
-      {% for profile in page.profiles %}
-        <hr>
-        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-          {% if profile.image %}
-            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-            {% if profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-            {% endif %}
-            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
-          {% endif %}
-          {% if profile.more_info %}
-            <div class="more-info">{{ profile.more_info }}</div>
-          {% endif %}
-        </div>
+<div class="container">
+  <div class="row text-center justify-content-center">
+    <!-- Faculty Section -->
+    {% assign categories = 'faculty,phd,master,undergraduate' | split: ',' %}
+    {% assign category_names = 'Faculty,PhD Students,Master Students,Undergraduate Students' | split: ',' %}
+    {% for category in categories %}
+      {% assign index = forloop.index0 %}
+      <div class="col-md-12">
+        <h2>{{ category_names[index] }}</h2>
+        <div class="row justify-content-center">
+          {% for person in site.people %}
+            {% if person.category == category %}
+              <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="h-100 person-card">
+                  {% if person.homepage %}
+                    <a href="{{ person.homepage }}" target="_blank">
+                      <img
+                        src="{{ person.photo | prepend: '/assets/img/people/' | relative_url }}"
+                        class="card-img-top rounded-circle mx-auto mt-3"
+                        style="width: 150px; height: 150px; object-fit: cover;"
+                        alt="{{ person.name }}"
+                      >
+                    </a>
+                  {% else %}
+                    <img
+                      src="{{ person.photo | prepend: '/assets/img/people/' | relative_url }}"
+                      class="card-img-top rounded-circle mx-auto mt-3"
+                      style="width: 150px; height: 150px; object-fit: cover;"
+                      alt="{{ person.name }}"
+                    >
+                  {% endif %}
 
-        <div class="clearfix">
-          {% if profile.content %}
-            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-            {{ profile_content | markdownify }}
-          {% else %}
-            {{ content }}
-          {% endif %}
+                  <div class="card-body">
+                    {% if person.homepage %}
+                      <a href="{{ person.homepage }}" target="_blank">
+                        <h5 class="card-title">{{ person.name }}</h5>
+                      </a>
+                    {% else %}
+                      <h5 class="card-title">{{ person.name }}</h5>
+                    {% endif %}
+                    <p class="card-text" style="color: gray">{{ person.info }}</p>
+                    <div class="d-flex justify-content-center">
+                      {% if person.homepage %}
+                        <a href="{{ person.homepage }}" target="_blank" class="mx-2 icon-links"><i class="fas fa-globe"></i></a>
+                      {% endif %}
+                      {% if person.email %}
+                        <a href="mailto:{{ person.email }}" class="mx-2 icon-links"><i class="fas fa-envelope"></i></a>
+                      {% endif %}
+                      {% if person.github %}
+                        <a href="{{ person.github }}" target="_blank" class="mx-2 icon-links"><i class="fab fa-github"></i></a>
+                      {% endif %}
+                      {% if person.linkedin %}
+                        <a href="{{ person.linkedin }}" target="_blank" class="mx-2 icon-links"><i class="fab fa-linkedin"></i></a>
+                      {% endif %}
+                      {% if person.facebook %}
+                        <a href="{{ person.facebook }}" target="_blank" class="mx-2 icon-links"><i class="fab fa-facebook"></i></a>
+                      {% endif %}
+                      {% if person.x %}
+                        <a href="{{ person.x }}" target="_blank" class="mx-2 icon-links"><i class="fab fa-twitter"></i></a>
+                      {% endif %}
+                      <!-- Add other social links similarly -->
+                    </div>
+                    {% if person.research_interests %}
+                      <ul class="mt-3 no-padding break-word" style="text-align: left; display: inline-block;">
+                        {% for interest in person.research_interests %}
+                          <li>{{ interest }}</li>
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
         </div>
-      {% endfor %}
+      </div>
+      <div class="spacer"></div>
+    {% endfor %}
+  </div>
+
+  {% assign total_categories = 0 %}
+  {% for category in site.data.alumni %}
+    {% assign members = category[1] %}
+    {% if members.size > 0 %}
+      {% assign total_categories = total_categories | plus: 1 %}
     {% endif %}
-  </article>
+  {% endfor %}
+  <script>
+    console.log({{ total_categories }})
+  </script>
+  {% if total_categories > 0 %}
+    <div class="col-md-12">
+      <h2 class="text-center">Alumni</h2>
+    </div>
+
+    <div class="col-md-12">
+      <div class="row justify-content-center">
+        {% for category in site.data.alumni %}
+          {% assign cat_key = category[0] %}
+          {% assign members = category[1] %}
+          {% if members.size > 0 %}
+            {% if total_categories > 1 %}
+              <div class="col-lg-3 col-md-4 col-sm-12 justify-content-center">
+                <h3 class="mt-4">{{ cat_key }}</h3>
+                {% for member in members %}
+                  <div class="mb-3">
+                    {% if member.url %}
+                      <a href="{{ member.url }}">
+                        <strong>{{ member.name }}</strong>
+                      </a>
+                    {% else %}
+                      <strong>{{ member.name }}</strong>
+                    {% endif %}
+                    {% if member.note %}
+                      <br>
+                      <span class="text-muted">{{ member.note }}</span>
+                    {% endif %}
+                  </div>
+                {% endfor %}
+              </div>
+            {% else %}
+              <div class="col-md-12 justify-content-center">
+                <h3 class="mt-4 text-center">{{ cat_key }}</h3>
+                {% assign half_member = members.size | divided_by: 2 %}
+                {% if half_member != members.size - half_member %}
+                  {% assign half_member = half_member | plus: 1 %}
+                {% endif %}
+                <div class="row justify-content-center">
+                  <div class="col-md-4">
+                    {% for member in members limit: half_member %}
+                      <div class="mb-3">
+                        {% if member.url %}
+                          <a href="{{ member.url }}">
+                            <strong>{{ member.name }}</strong>
+                          </a>
+                        {% else %}
+                          <strong>{{ member.name }}</strong>
+                        {% endif %}
+                        {% if member.note %}
+                          <br>
+                          <span class="text-muted">{{ member.note }}</span>
+                        {% endif %}
+                      </div>
+                    {% endfor %}
+                  </div>
+                  <div class="col-md-4">
+                    {% for member in members offset: half_member %}
+                      <div class="mb-3">
+                        {% if member.url %}
+                          <a href="{{ member.url }}">
+                            <strong>{{ member.name }}</strong>
+                          </a>
+                        {% else %}
+                          <strong>{{ member.name }}</strong>
+                        {% endif %}
+                        {% if member.note %}
+                          <br>
+                          <span class="text-muted">{{ member.note }}</span>
+                        {% endif %}
+                      </div>
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
 </div>
