@@ -248,6 +248,7 @@ ul.task-list input[type="checkbox"] {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  font-weight: 400;
 }
 
 .navbar .dropdown-menu {
@@ -1341,4 +1342,29 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
+}
+
+.person-card .card-img-top {
+  transition:
+    box-shadow 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
+  transform: scale(1);
+  box-shadow: none;
+}
+
+.person-card:hover .card-img-top {
+  transform: scale(1.05);
+  box-shadow: 0 0 0 4px var(--global-theme-color); /* 头像环 */
+}
+
+.person-card .card-title {
+  transition:
+    transform 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+  font-weight: bold !important;
+}
+
+.person-card:hover .card-title {
+  color: var(--global-theme-color);
+  transform: scale(1.05);
 }
