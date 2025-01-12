@@ -12,6 +12,8 @@ profile:
   image: feisun.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
+  Shurijō Castle, Okinawa
+  A TBBT T-shirt 
 
 
 news: true # includes a list of news items
@@ -24,7 +26,7 @@ I'm an associate professor at Institute of Computing Technology, CAS.
 
 I lead the [**STAR Group**](https://ict-star.github.io/), a small yet passionate team dedicated to advancing research in **AI Safety**.
 
-As a scientist, I'm broadly interested in all aspects of machine learning, with a particular focus on topics related to **Safety & Trustworthy**, including:
+I'm broadly interested in all aspects of machine learning, with a particular focus on topics related to **Safety & Trustworthy**, including:
 
 * **Knowledge mechanisms in LLMs**: how they learn, memorize, recall, update/edit, and forget knowledge---basically reverse-engineering the brain of a neural network.
 * **Safety challenges in AI applications**, especially in LLMs and RecSys.
@@ -35,9 +37,9 @@ Simple Stats About My Academic Life:
 * 🌟 **6 papers** ranked among the **top 20** most-cited papers on Google Scholar (5Y).
 * 📈 One paper ranks in the **top 5** most-cited papers in [CIKM’s history](https://www.semanticscholar.org/venue?name=cikm&sort=total-citations).
 
-
 **Join Us!** 👩‍💻👨‍💻  
-I'm always looking for strong and motivated students to join us! Just drop me an email with your cv and a brief statement of your research interests.  
+I'm always looking for strong and motivated students to join us! Just drop me an email with your cv. 
+<!-- and a brief statement of your research interests.   -->
 
 <!-- On a personal note, I recently became a father to a lovely baby girl and am also raising a playful two-year-old dog. These days, my travels are mostly limited to attending academic conferences 😂. -->
 
