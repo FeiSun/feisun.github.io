@@ -215,6 +215,24 @@ year={2024},
 url={https://openreview.net/forum?id=k8AYft5ED1}
 }
 
+@article{tao-2023-adv,
+abbr = {Information Sciences},
+bibtex_show={true},
+google_scholar_id={CdxZDUztZiMC},
+pdf={https://arxiv.org/pdf/2208.01819},
+title = {Adversarial camouflage for node injection attack on graphs},
+journal = {Information Sciences},
+volume = {649},
+pages = {119611},
+year = {2023},
+issn = {0020-0255},
+doi = {https://doi.org/10.1016/j.ins.2023.119611},
+url = {https://www.sciencedirect.com/science/article/pii/S0020025523011969},
+author = {Shuchang Tao and Qi Cao and Huawei Shen and Yunfan Wu and Liang Hou and Fei Sun and Xueqi Cheng},
+keywords = {Adversarial camouflage, Node injection attack, Adversarial attack, Graph neural networks},
+abstract = {Node injection attacks on Graph Neural Networks (GNNs) have received increasing attention recently, due to their ability to degrade GNN performance with high attack success rates. However, our study indicates that these attacks often fail in practical scenarios, since defense/detection methods can easily identify and remove the injected nodes. To address this, we devote to camouflage node injection attack, making injected nodes appear normal and imperceptible to defense/detection methods. Unfortunately, the non-Euclidean structure of graph data and the lack of intuitive prior present great challenges to the formalization, implementation, and evaluation of camouflage. In this paper, we first propose and define camouflage as distribution similarity between ego networks of injected nodes and normal nodes. Then for implementation, we propose an adversarial CAmouflage framework for Node injection Attack, namely CANA, to improve attack performance under defense/detection methods in practical scenarios. A novel camouflage metric is further designed under the guide of distribution similarity. Extensive experiments demonstrate that CANA can significantly improve the attack performance under defense/detection methods with higher camouflage or imperceptibility. This work urges us to raise awareness of the security vulnerabilities of GNNs in practical applications.}
+}
+
 @article{Chen-2023-privacy,
 abbr = {TOIS},
 bibtex_show={true},
@@ -237,6 +255,48 @@ month = feb,
 articleno = {60},
 numpages = {26},
 keywords = {GDPR, privacy, Recommender system}
+}
+
+@inproceedings{wang-2022-mia,
+abbr = {KDD},
+bibtex_show={true},
+google_scholar_id={48xauSegjOkC},
+pdf={https://arxiv.org/pdf/2206.12401},
+github={https://github.com/WZH-NLP/DL-MIA-KDD-2022},
+author = {Wang, Zihan and Huang, Na and Sun, Fei and Ren, Pengjie and Chen, Zhumin and Luo, Hengliang and de Rijke, Maarten and Ren, Zhaochun},
+title = {Debiasing Learning for Membership Inference Attacks Against Recommender Systems},
+year = {2022},
+isbn = {9781450393850},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3534678.3539392},
+doi = {10.1145/3534678.3539392},
+abstract = {Learned recommender systems may inadvertently leak information about their training data, leading to privacy violations. We investigate privacy threats faced by recommender systems through the lens of membership inference. In such attacks, an adversary aims to infer whether a user's data is used to train the target recommender. To achieve this, previous work has used a shadow recommender to derive training data for the attack model, and then predicts the membership by calculating difference vectors between users' historical interactions and recommended items. State-of-the-art methods face two challenging problems: (i) training data for the attack model is biased due to the gap between shadow and target recommenders, and (ii) hidden states in recommenders are not observational, resulting in inaccurate estimations of difference vectors.To address the above limitations, we propose a Debiasing Learning for Membership Inference Attacks against recommender systems (DL-MIA) framework that has four main components: (i) a difference vector generator, (ii) a disentangled encoder, (iii) a weight estimator, and (iv) an attack model. To mitigate the gap between recommenders, a variational auto-encoder (VAE) based disentangled encoder is devised to identify recommender invariant and specific features. To reduce the estimation bias, we design a weight estimator, assigning a truth-level score for each difference vector to indicate estimation accuracy. We evaluate DL-MIA against both general recommenders and sequential recommenders on three real-world datasets. Experimental results show that DL-MIA effectively alleviates training and estimation biases simultaneously, and \'{I}achieves state-of-the-art attack performance.},
+booktitle = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+pages = {1959–1968},
+numpages = {10},
+keywords = {debiasing, membership inference attack, recommender system},
+location = {Washington DC, USA},
+series = {KDD '22}
+}
+
+@inproceedings{liu-2022-rank,
+abbr = {IJCAI},
+bibtex_show={true},
+google_scholar_id={GFxP56DSvIMC},
+pdf={https://www.ijcai.org/proceedings/2022/0771.pdf},
+  title     = {Neural Re-ranking in Multi-stage Recommender Systems: A Review},
+  author    = {Liu, Weiwen and Xi, Yunjia and Qin, Jiarui and Sun, Fei and Chen, Bo and Zhang, Weinan and Zhang, Rui and Tang, Ruiming},
+  booktitle = {Proceedings of the Thirty-First International Joint Conference on
+               Artificial Intelligence, {IJCAI-22}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Lud De Raedt},
+  pages     = {5512--5520},
+  year      = {2022},
+  month     = {7},
+  note      = {Survey Track},
+  doi       = {10.24963/ijcai.2022/771},
+  url       = {https://doi.org/10.24963/ijcai.2022/771},
 }
 
 @inproceedings{xie-etal-2021-factual-consistency,
@@ -264,6 +324,28 @@ keywords = {GDPR, privacy, Recommender system}
     doi = "10.18653/v1/2021.findings-emnlp.10",
     pages = "100--110",
     abstract = "Despite significant progress has been achieved in text summarization, factual inconsistency in generated summaries still severely limits its practical applications. Among the key factors to ensure factual consistency, a reliable automatic evaluation metric is the first and the most crucial one. However, existing metrics either neglect the intrinsic cause of the factual inconsistency or rely on auxiliary tasks, leading to an unsatisfied correlation with human judgments or increasing the inconvenience of usage in practice. In light of these challenges, we propose a novel metric to evaluate the factual consistency in text summarization via counterfactual estimation, which formulates the causal relationship among the source document, the generated summary, and the language prior. We remove the effect of language prior, which can cause factual inconsistency, from the total causal effect on the generated summary, and provides a simple yet effective way to evaluate consistency without relying on other auxiliary tasks. We conduct a series of experiments on three public abstractive text summarization datasets, and demonstrate the advantages of the proposed metric in both improving the correlation with human judgments and the convenience of usage. The source code is available at \url{https://github.com/xieyxclack/factual_coco}."
+}
+
+@inproceedings{Xie-2022-causcf,
+abbr = {CIKM},
+bibtex_show={true},
+google_scholar_id={lmc2jWPfTJgC},
+pdf={https://arxiv.org/pdf/2105.13881},
+author = {Xie, Xu and Liu, Zhaoyang and Wu, Shiwen and Sun, Fei and Liu, Cihang and Chen, Jiawei and Gao, Jinyang and Cui, Bin and Ding, Bolin},
+title = {CausCF: Causal Collaborative Filtering for Recommendation Effect Estimation},
+year = {2021},
+isbn = {9781450384469},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3459637.3481901},
+doi = {10.1145/3459637.3481901},
+abstract = {To improve user experience and profits of corporations, modern industrial recommender systems usually aim to select the items that are most likely to be interacted with (e.g., clicks and purchases). However, they overlook the fact that users may purchase the items even without recommendations. The real effective items are the ones that can contribute to purchase probability uplift. To select these effective items, it is essential to estimate the causal effect of recommendations. Nevertheless, it is difficult to obtain the real causal effect since we can only recommend or not recommend an item to a user at one time. Furthermore, previous works usually rely on the randomized controlled trial (RCT) experiment to evaluate their performance. However, it is usually not practicable in the recommendation scenario due to its expensive experimental cost. To tackle these problems, in this paper, we propose a causal collaborative filtering (CausCF) method inspired by the widely adopted collaborative filtering (CF) technique. It is based on the idea that similar users not only have a similar taste on items but also have similar treatment effects under recommendations. CausCF extends the classical matrix factorization to the tensor factorization with three dimensions---user, item, and treatment. Furthermore, we also employ regression discontinuity design (RDD) to evaluate the precision of the estimated causal effects from different models. With the testable assumptions, RDD analysis can provide an unbiased causal conclusion without RCT experiments. Through dedicated experiments on both offline and online experiments, we demonstrate the effectiveness of our proposed CausCF on the causal effect estimation and ranking performance improvement.},
+booktitle = {Proceedings of the 30th ACM International Conference on Information \& Knowledge Management},
+pages = {4253–4263},
+numpages = {11},
+keywords = {causal collaborative filtering, recommender system, regression discontinuity design},
+location = {Virtual Event, Queensland, Australia},
+series = {CIKM '21}
 }
 
 @article{Wu-2022-GNN,
@@ -355,6 +437,30 @@ location = {Ljubljana, Slovenia},
 series = {WWW '21}
 }
 
+@article{Chen-2021-multi,
+bibtex_show={true},
+abbr = {TOIS},
+google_scholar_id={a9-T7VOCCH8C},
+pdf={https://irlab.science.uva.nl/wp-content/papercite-data/pdf/chen-2022-multi-interest.pdf},
+author = {Chen, Wanyu and Ren, Pengjie and Cai, Fei and Sun, Fei and De Rijke, Maarten},
+title = {Multi-interest Diversification for End-to-end Sequential Recommendation},
+year = {2021},
+issue_date = {January 2022},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {40},
+number = {1},
+issn = {1046-8188},
+url = {https://doi.org/10.1145/3475768},
+doi = {10.1145/3475768},
+abstract = {Sequential recommenders capture dynamic aspects of users’ interests by modeling sequential behavior. Previous studies on sequential recommendations mostly aim to identify users’ main recent interests to optimize the recommendation accuracy; they often neglect the fact that users display multiple interests over extended periods of time, which could be used to improve the diversity of lists of recommended items. Existing work related to diversified recommendation typically assumes that users’ preferences are static and depend on post-processing the candidate list of recommended items. However, those conditions are not suitable when applied to sequential recommendations. We tackle sequential recommendation as a list generation process and propose a unified approach to take accuracy as well as diversity into consideration, called multi-interest, diversified, sequential recommendation. Particularly, an implicit interest mining module is first used to mine users’ multiple interests, which are reflected in users’ sequential behavior. Then an interest-aware, diversity promoting decoder is designed to produce recommendations that cover those interests. For training, we introduce an interest-aware, diversity promoting loss function that can supervise the model to learn to recommend accurate as well as diversified items. We conduct comprehensive experiments on four public datasets and the results show that our proposal outperforms state-of-the-art methods regarding diversity while producing comparable or better accuracy for sequential recommendation.},
+journal = {ACM Trans. Inf. Syst.},
+month = sep,
+articleno = {20},
+numpages = {30},
+keywords = {Sequential recommendation, diversified recommendation}
+}
+
 @inproceedings{deng-2021-conv,
 bibtex_show={true},
 abbr = {SIGIR},
@@ -399,6 +505,22 @@ keywords = {unbiased recommendation, reinforcement learning, recommender system,
 location = {Virtual Event, Israel},
 series = {WSDM '21}
 }
+
+@INPROCEEDINGS{Xie-2021-user,
+bibtex_show={true},
+abbr = {ICDE},
+google_scholar_id={eMMeJKvmdy0C},
+pdf={https://arxiv.org/pdf/2103.00442},
+  author={Xie, Xu and Sun, Fei and Yang, Xiaoyong and Yang, Zhao and Gao, Jinyang and Ou, Wenwu and Cui, Bin},
+  booktitle={2021 IEEE 37th International Conference on Data Engineering (ICDE)}, 
+  title={Explore User Neighborhood for Real-time E-commerce Recommendation}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={2464-2475},
+  keywords={Conferences;Computational modeling;Collaborative filtering;Data engineering;Real-time systems;Recommender systems;Candidate generation;User neighborhood;Real time},
+  doi={10.1109/ICDE51399.2021.00279}}
+
 
 @inproceedings{liu-2020-Intent,
   bibtex_show={true},
