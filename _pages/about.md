@@ -26,4 +26,5 @@ I have authored over 60 peer-reviewed publications in top-tier conferences such 
 
 * Efficiently updating the knowlede/behavior of LLMs: Model Editing, Machine Unlearning
 * Uncertainty/knowlede boundary of LLMs; Hallucination 
-* LLM for recommendation simulation; recommendation safety: data minimization, unlearning, membership inference, robustness
+* LLM for recommendation simulation; recommendation safety
+
