@@ -29,10 +29,11 @@ nav_order: 5
 
 * ACL, EMNLP, NAACL
 * NeurIPS, ICML, ICLR 
-* <img alt="NeurIPS: 2022--24" src="https://img.shields.io/badge/NeurIPS-2022--24-blue?style=flat">
+* <img alt="NeurIPS: 2022--24" src="https://img.shields.io/badge/NeurIPS-2022--24-blue?style=for-the-badge">
 * 
 
 
+<!-- &labelColor=yellow -->
 ---
 
 
