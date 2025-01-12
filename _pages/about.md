@@ -26,10 +26,17 @@ I lead the [**STAR Group**](https://ict-star.github.io/), a small yet passionate
 
 As a scientist, I'm broadly interested in all aspects of machine learning, with a particular focus on topics related to **Safety & Trustworthy**, including:
 
-* **Knowledge mechanisms in LLMs**: how they learn, memorize, recall, update/edit, and forget knowledge
+* **Knowledge mechanisms in LLMs**: how they learn, memorize, recall, update/edit, and forget knowledge---basically reverse-engineering the brain of a neural network.
 * **Safety challenges in AI applications**, especially in LLMs and RecSys.
 
-On a personal note, I recently became a father to a lovely baby girl and am also raising a playful two-year-old dog. These days, my travels are mostly limited to attending academic conferences 😂.
+Simple Stats About My Academic Life:
+* 📝 [60 peer-reviewed papers](https://scholar.google.com/citations?user=OlRxBhcAAAAJ) in top conferences and journals.
+* 🏆 **Stanford University’s World’s Top 2% Scientists** ([2023](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6), [2024](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7)).
+* 🌟 **6 papers** ranked among the **top 20** most-cited papers on Google Scholar in the last 5 years.
+* 📈 One paper ranks in the **top 5** most-cited papers in [CIKM’s history](https://www.semanticscholar.org/venue?name=cikm&sort=total-citations).
+
+
+<!-- On a personal note, I recently became a father to a lovely baby girl and am also raising a playful two-year-old dog. These days, my travels are mostly limited to attending academic conferences 😂. -->
 
 
 
