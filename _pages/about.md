@@ -12,8 +12,8 @@ profile:
   image: feisun.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-  Shurijo Castle, Okinawa
-  An T-shirt with infinity symbol
+  <p>Shurijo Castle, Okinawa</p>
+  <p>A T-shirt with infinity symbol</p>
 
 
 news: true # includes a list of news items
