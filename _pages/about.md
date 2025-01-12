@@ -26,7 +26,7 @@ knowledge mechanisms of AI models—how they learn, memorize, recall, update/edi
 
 ### Research
 
-* Efficiently updating the knowlede/behavior of LLMs: Model Editing, Machine Unlearning
+* Knowledge mechanisms of LLM—how they learn, memorize, recall, update/edit, and forget knowledge
 * Uncertainty/knowlede boundary of LLMs; Hallucination 
 * LLM for recommendation simulation; recommendation safety
 
