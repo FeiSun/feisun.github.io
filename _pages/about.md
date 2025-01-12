@@ -32,7 +32,7 @@ As a scientist, I'm broadly interested in all aspects of machine learning, with 
 Simple Stats About My Academic Life:
 * 📝 [60 peer-reviewed papers](https://scholar.google.com/citations?user=OlRxBhcAAAAJ) in top conferences and journals.
 * 🏆 **Stanford University’s World’s Top 2% Scientists** ([2023](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6), [2024](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7)).
-* 🌟 **6 papers** ranked among the **top 20** most-cited papers on Google Scholar in the last 5 years.
+* 🌟 **6 papers** ranked among the **top 20** most-cited papers on Google Scholar (5Y).
 * 📈 One paper ranks in the **top 5** most-cited papers in [CIKM’s history](https://www.semanticscholar.org/venue?name=cikm&sort=total-citations).
 
 
@@ -57,17 +57,4 @@ If this resonates with you, we are actively hiring (full-time + internships)! --
 - **6 papers** ranking among the top 20 most-cited papers on Google Scholar (5 years).
 - **Best Long Paper Mention** at **RecSys 2019**.
 - **Stanford University’s World’s Top 2% Scientists** ([2023](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6), [2024](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7)). -->
-
-
-<!-- - Served as **Senior Program Committee (SPC)** or **Program Committee (PC) member** for leading conferences, including ACL, NeurIPS, ICML, IJCAI, and AAAI. -->
-<!-- - Invited reviewer for prestigious journals such as **TOIS**, **TKDE**, and **CSUR**. -->
-
-
-<!-- - Focused on **Natural Language Processing (NLP)** and **Recommender Systems (RecSys)**, with a particular emphasis on **safety issues** in these fields. -->
-
-<!-- ### Research
-
-* Knowledge mechanisms of LLM—how they learn, memorize, recall, update/edit, and forget knowledge
-* Uncertainty/knowlede boundary of LLMs; Hallucination 
-* LLM for recommendation simulation; recommendation safety -->
 
