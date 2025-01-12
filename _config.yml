@@ -152,6 +152,10 @@ collections:
     permalink: /:collection/:title/
   people:
     output: false
+  workshop:
+    output: true
+    permalink: /:collection/:title/
+
 
 announcements:
   enabled: true
