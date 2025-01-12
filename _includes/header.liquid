@@ -19,6 +19,10 @@
           {% else %}
             {{- site.title -}}
           {% endif %}
+          {% if site.enable_navbar_social %}
+          <!-- Social Icons -->
+          <div class="navbar-brand social"> | {% include social.liquid %}</div>
+          {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
