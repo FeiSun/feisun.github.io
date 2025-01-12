@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "nav-projects",
-          title: "Projects",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-service",
           title: "Service",
           description: "",
@@ -401,6 +394,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-three-papers-are-accepted-by-acl2024-about-model-editing-bias-in-knowledge-conflict-and-confidence-alignment-congrats-to-hexiang-wanli-and-shuchang",
           title: 'Three papers are accepted by ACL2024 about model editing, bias in knowledge conflict,...',
+          description: "",
+          section: "News",},{id: "news-will-serve-as-an-standing-reviewer-for-tacl",
+          title: 'Will serve as an standing reviewer for TACL.',
           description: "",
           section: "News",},{id: "news-our-paper-the-fall-of-rome-is-accepted-by-emnlp2024-finding-congrats-to-wanli",
           title: 'Our paper The Fall of ROME is accepted by EMNLP2024 finding. Congrats to...',
