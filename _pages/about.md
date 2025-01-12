@@ -18,3 +18,6 @@ social: true # includes social icons at the bottom of the page
 ---
 
 TBD
+
+Now, I'm an associate professor at ICT, CAS. Prior to joining ICT, I was an algorithm expert at Alibaba. I recieved my PhD degree from the CAS Key Lab of Network Data Science and Technology in Institute of Computing Technology, Chinese Academy of Sciences under the supervision of Prof. Jun Xu and Prof. Jiafeng Guo, and Prof. Xueqi Cheng in July 2017.
+
