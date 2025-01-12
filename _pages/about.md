@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <strong>Associate professor</strong> @ <a href="http://english.ict.cas.cn/">ICT, CAS</a> &nbsp;•&nbsp; <a href="https://ict-star.github.io/" style="font-weight: bold;">STAR Group</a> &nbsp;•&nbsp; <strong>Previously:</strong> Alibaba Taobao/<a href="https://damo.alibaba.com/">Damo</a>
+subtitle: <strong>Associate professor</strong> @ <a href="http://english.ict.cas.cn/">ICT, CAS</a> &nbsp;•&nbsp; <a class="nav-link" href="https://ict-star.github.io/">STAR Group</a> &nbsp;•&nbsp; <strong>Previously:</strong> Alibaba Taobao/<a href="https://damo.alibaba.com/">Damo</a>
 
 
  
