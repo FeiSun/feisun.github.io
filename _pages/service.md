@@ -10,7 +10,7 @@ nav_order: 5
 ### **Organizing Committee**
 
 * [1st Workshop on Human-Centered Recommender Systems](https://human-centeredrec.github.io/) at WebConf 25
-* 
+* [Workshop on Natural Language Processing for Recommendations](https://wsdm2020-nlp4rec.github.io/) at WSDM 2020
 
 
 ### **Journal Reviews**
@@ -29,7 +29,9 @@ nav_order: 5
 
 * ACL, EMNLP, NAACL
 * NeurIPS, ICML, ICLR 
+* <img alt="NeurIPS: 2022--24" src="https://img.shields.io/badge/NeurIPS-2022--24-blue?style=flat">
 * 
+
 
 ---
 
