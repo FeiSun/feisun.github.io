@@ -12,7 +12,7 @@ profile:
   image: feisun.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>An Asian man wearing sunglasses and a red T-shirt with the infinity symbol, standing on top of Shurijo Castle, Okinawa</p>
+    <p style="font-family: monospace; font-size: 0.9rem; font-weight: 300; margin-bottom: 1rem;">An Asian man wearing sunglasses and a red T-shirt with the infinity symbol, standing on top of Shurijo Castle, Okinawa</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
