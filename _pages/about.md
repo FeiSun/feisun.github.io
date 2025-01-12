@@ -12,8 +12,7 @@ profile:
   image: feisun.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-
-
+    <p>An Asian man wearing sunglasses and a red T-shirt with the infinity symbol, standing on top of Shurijo Castle, Okinawa</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -40,6 +39,7 @@ Simple Stats About My Academic Life:
 
 **Join Us!** 👩‍💻👨‍💻  
 I'm always looking for strong and motivated students to join us! Just drop me an email with your cv. 
+
 <!-- and a brief statement of your research interests.   -->
 
 <!-- On a personal note, I recently became a father to a lovely baby girl and am also raising a playful two-year-old dog. These days, my travels are mostly limited to attending academic conferences 😂. -->
