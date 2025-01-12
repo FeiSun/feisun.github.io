@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <strong>Associate professor</strong> @ <a href="http://english.ict.cas.cn/">ICT, CAS</a> &nbsp;•&nbsp; <a href="https://ict-star.github.io/">STAR Group</a> &nbsp;•&nbsp; <strong>Previously:</strong> Alibaba ⟵ ICT, CAS  ⟵  BIT
+subtitle: <strong>Associate professor</strong> @ <a href="http://english.ict.cas.cn/">ICT, CAS</a> &nbsp;•&nbsp; <a href="https://ict-star.github.io/">STAR Group</a> &nbsp;•&nbsp; <strong>Previously:</strong> Alibaba ← ICT, CAS ← BIT
 
 # Alibaba Taobao/<a href="https://damo.alibaba.com/">Damo</a>
 
@@ -24,9 +24,12 @@ I'm an associate professor at Institute of Computing Technology, CAS.
 
 I lead the [**STAR Group**](https://ict-star.github.io/), a small yet passionate team dedicated to advancing research in **AI Safety**.
 
-As a scientist, I'm broadly interested in all aspects of machine learning, and particularly in **Safety & Trustworthy** related topics.
+As a scientist, I'm broadly interested in all aspects of machine learning, with a particular focus on topics related to **Safety & Trustworthy**, including:
 
-Recently, I became a dad to a lovely baby girl and have been raising a playful two-year-old dog, so these days, my travels are mostly limited to attending academic conferences 😂.
+* **Knowledge mechanisms in LLMs**: how they learn, memorize, recall, update/edit, and forget knowledge
+* **Safety challenges in AI applications**, especially in LLMs and RecSys.
+
+On a personal note, I recently became a father to a lovely baby girl and am also raising a playful two-year-old dog. These days, my travels are mostly limited to attending academic conferences 😂.
 
 
 
