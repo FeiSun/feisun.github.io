@@ -20,11 +20,14 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-I'm an associate professor at ICT, CAS.
+I'm an associate professor at Institute of Computing Technology, CAS.
 
 I lead the [**STAR Group**](https://ict-star.github.io/), a small yet passionate team dedicated to advancing research in **AI Safety**.
 
-As a scientist, I’m broadly interested in all aspects of machine learning, and particularly in Safety & Trustworthy related topics.
+As a scientist, I'm broadly interested in all aspects of machine learning, and particularly in **Safety & Trustworthy** related topics.
+
+Recently, I became a dad to a lovely baby girl and have been raising a playful two-year-old dog, so these days, my travels are mostly limited to attending academic conferences 😂.
+
 
 
 
