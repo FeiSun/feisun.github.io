@@ -478,11 +478,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "workshop-workshop-1",
-          title: 'Workshop 1',
-          description: "NLP4Rec",
+            },},{id: "workshop-nlp4rec-2020",
+          title: 'NLP4REC 2020',
+          description: "The WSDM 2020 Workshop on Natural Language Processing for Recommendations",
           section: "Workshop",handler: () => {
               window.location.href = "/workshop/1_workshop/";
+            },},{id: "workshop-hcrs-thewebconf-2025",
+          title: 'HCRS@TheWebConf 2025',
+          description: "The 1st Workshop on Human-Centered Recommender Systems",
+          section: "Workshop",handler: () => {
+              window.location.href = "/workshop/2_workshop/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
