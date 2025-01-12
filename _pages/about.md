@@ -12,8 +12,8 @@ profile:
   image: feisun.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-  Shurijō Castle, Okinawa
-  A TBBT T-shirt 
+  Shurijo Castle, Okinawa
+  An T-shirt with infinity symbol
 
 
 news: true # includes a list of news items
