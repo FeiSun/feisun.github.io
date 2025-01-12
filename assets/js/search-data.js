@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/service/";
           },
+        },{id: "nav-workshop",
+          title: "Workshop",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/workshop/";
+          },
         },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
@@ -471,6 +478,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "workshop-workshop-1",
+          title: 'Workshop 1',
+          description: "NLP4Rec",
+          section: "Workshop",handler: () => {
+              window.location.href = "/workshop/1_workshop/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
