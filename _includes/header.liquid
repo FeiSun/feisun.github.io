@@ -19,14 +19,14 @@
           {% else %}
             {{- site.title -}}
           {% endif %}
-          {% if site.enable_navbar_social %}
-          <!-- Social Icons -->
-          <div class="navbar-brand social"> | {% include social.liquid %}</div>
-          {% endif %}
         </a>
+        {% if site.enable_navbar_social %}
+          <!-- Social Icons -->
+          <div class="navbar-brand social"> <strong>｜</strong> {% include social.liquid %}</div>
+          {% endif %}
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
-        <div class="navbar-brand social">{% include social.liquid %}</div>
+        <div class="navbar-brand social"> {% include social.liquid %}</div>
       {% endif %}
       <!-- Navbar Toggle -->
       <button
