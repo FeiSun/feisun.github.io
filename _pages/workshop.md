@@ -17,21 +17,21 @@ horizontal: false
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% assign categorized_projects = site.workshop | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  {% assign categorized_workshops = site.workshop | where: "category", category %}
+  {% assign sorted_workshops = categorized_workshops | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
+    {% for project in sorted_workshops %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
+    {% for workshop in sorted_workshops %}
+      {% include workshop.liquid %}
     {% endfor %}
   </div>
   {% endif %}
@@ -40,3 +40,5 @@ horizontal: false
 {% else %}
 
 {% endif %}
+
+</div>

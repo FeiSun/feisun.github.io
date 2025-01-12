@@ -20,16 +20,16 @@ nav_order: 5
 
 ### **Senior Program Committee**
 
-* IJCAI 
-* 2025: WebConf (short), SIGIR
-* 
+* 2025: WebConf (short), SIGIR, IJCAI
+* 2022: AAAI
+* 2021: IJCAI 
 
 
 ### **Program Committee**
 
 * ACL, EMNLP, NAACL
 * NeurIPS, ICML, ICLR 
-* <img alt="NeurIPS: 2022--24" src="https://img.shields.io/badge/NeurIPS-2022--24-blue?style=for-the-badge">
+* <img alt="NeurIPS: 2022--24" src="https://img.shields.io/badge/NeurIPS-2022--24-blue?style=for-the-badge"> <img alt="ICML: 2022--25" src="https://img.shields.io/badge/ICML-2022--24-blue?style=for-the-badge">
 * 
 
 
