@@ -31,10 +31,11 @@ I'm broadly interested in all aspects of machine learning, with a particular foc
 * **Knowledge mechanisms in LLMs**: how they learn, memorize, recall, update/edit, and forget knowledge---basically reverse-engineering the brain of a neural network.
 * **Safety challenges in AI applications**, especially in LLMs and RecSys.
 
-Simple Stats About My Academic Life:
+📊 Simple Stats About My Academic Life 🤓:
 * 📝 [60 peer-reviewed papers](https://scholar.google.com/citations?user=OlRxBhcAAAAJ) in top conferences and journals.
 * 🏆 **Stanford University’s World’s Top 2% Scientists** ([2023](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6), [2024](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7)).
-* 🌟 **6 papers** ranked among the **top 20** most-cited papers on Google Scholar (5Y).
+<!-- * 🌟 **6 papers** ranked among the **top 20** most-cited papers on Google Scholar (5Y). -->
+* 🌟 **6 papers** in Google Scholar’s top 20 most-cited (5 years)
 * 📈 One paper ranks in the **top 5** most-cited papers in [CIKM’s history](https://www.semanticscholar.org/venue?name=cikm&sort=total-citations).
 
 **Join Us!** 👩‍💻👨‍💻  
