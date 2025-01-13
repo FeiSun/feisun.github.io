@@ -22,7 +22,6 @@ social: true # includes social icons at the bottom of the page
   <p>Shurijo Castle, Okinawa</p>
   <p>A T-shirt with infinity symbol</p> -->
 
-<p style="font-family: 'Cairo Play', sans-serif !important; font-weight: 700;> test ali fei </p>
 
 I'm an associate professor at Institute of Computing Technology, CAS.
 
