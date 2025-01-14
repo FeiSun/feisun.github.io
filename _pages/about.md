@@ -38,10 +38,10 @@ I'm broadly interested in all aspects of machine learning, with a particular foc
 * 📈 **~1/7** of my papers in GScholar's **top 100** citations (5Y, in-venue); <br>
   **6** in **top 20** [e.g., [1](https://scholar.google.com/citations?hl=en&vq=eng_databasesinformationsystems&view_op=list_hcore&venue=HdCtgB7kxZAJ.2024), [2](https://scholar.google.com/citations?hl=en&vq=eng_enggeneral&view_op=list_hcore&venue=AcMeFkiQ6ZEJ.2024), [3](https://scholar.google.com/citations?hl=en&vq=eng_databasesinformationsystems&view_op=list_hcore&venue=6AbX1YWluE4J.2024)].
 * 🎖 One paper ranks in the **top 5** most-cited papers in [CIKM’s history](https://www.semanticscholar.org/venue?name=cikm&sort=total-citations).
-* 🧐 Served as PC/SPC **50+ times** for top-tier conferences and journals.
+* 🧐 Served as PC/SPC **50+ times** for top-tier conferences.
 
 **Join Us!** 👩‍💻👨‍💻  
-I'm always looking for strong and motivated students to join us! Just drop me an email with your cv. 
+I'm always looking for **strong** and **motivated** students to join us! Just drop me an email with your cv. 
 
 
 <!--  6 papers ranked among the **top 20** most-cited papers on Google Scholar (5Y). -->
