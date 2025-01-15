@@ -151,7 +151,7 @@
       {% endif %}
       <a class="bibtex btn btn-sm z-depth-0" role="button" style="background-color: #5cb85c; border: none;">Bib</a>
       {% if entry.review %}
-        <a href="{{ entry.review | prepend: '/assets/review/' | relative_url }} class="btn btn-sm z-depth-0" role="button" style="background-color: #5cb85c; border: none;">Review</a>
+        <a href="{{ entry.review | prepend: '/assets/review/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" style="background-color: #5cb85c; border: none;">Review</a>
       {% endif %}
       {% if entry.html %}
         <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" style="background-color: #428bca; border: none;">HTML</a>
