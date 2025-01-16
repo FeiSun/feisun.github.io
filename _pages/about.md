@@ -40,6 +40,8 @@ I'm broadly interested in all aspects of machine learning, with a particular foc
 * 🎖 One paper ranks in the **top 5** most-cited papers in [CIKM’s history](https://www.semanticscholar.org/venue?name=cikm&sort=total-citations).
 * 🧐 Served as PC/SPC **50+ times** for top-tier conferences.
 
+<!-- 🎯 Maintained an **~80% acceptance rate** for submitted papers. -->
+
 **Join Us!** 👩‍💻👨‍💻  
 I'm always looking for **strong** and **motivated** students to join us! Just drop me an email with your cv. 
 
