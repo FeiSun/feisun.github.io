@@ -229,7 +229,7 @@
             {% if site.data.venues[entry.abbr].url %}
               <a href="{{ site.data.venues[entry.abbr].url }}" style="white-space: normal; font-size: 100%; color: #fff; font-weight: 700;">{{ entry.abbr }}</a>
             {% else %}
-              <div style="font-size: 100%; color: #fff;">{{- entry.abbr -}}</div>
+              <div style="white-space: normal; font-size: 100%; color: #fff;">{{- entry.abbr -}}</div>
             {% endif %}
           </abbr>
         {% else %}
