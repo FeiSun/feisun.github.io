@@ -331,18 +331,16 @@
           {% endif %}
           {% if site.enable_publication_badges.semantic_scholar and entry_has_semantic_scholar_badge %}
             {% assign citation_count = semantic_scholar_citations entry.semantic_scholar_id %}
-            {% if citation_count != "N/A" and citation_count | remove: ',' | plus: 0 > 0 %}
-              <a
-                href="https://www.semanticscholar.org/paper/{{ entry.semantic_scholar_id }}"
-                aria-label="Semantic Scholar link"
-                role="button"
+            <a
+              href="https://www.semanticscholar.org/paper/{{ entry.semantic_scholar_id }}"
+              aria-label="Semantic Scholar link"
+              role="button"
+            >
+              <img
+                src="https://img.shields.io/badge/🔥H--Impact-{ citation_count }-273d72?logo=semanticscholar&style=flat-square&logoColor=%23273d72&labelColor=f6f6f6&color=%23273d72"
+                alt="{ citation_count } Semantic Scholar influential citations"
               >
-                <img
-                  src="https://img.shields.io/badge/🔥H--Impact-{ citation_count }-273d72?logo=semanticscholar&style=flat-square&logoColor=%23273d72&labelColor=f6f6f6&color=%23273d72"
-                  alt="{ citation_count } Semantic Scholar influential citations"
-                >
-              </a>
-            {% endif %}
+            </a>
           {% endif %}
           {% if site.enable_publication_badges.inspirehep and entry_has_inspirehep_badge %}
             <a
