@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ConfMen
+title: Mem
 permalink: /confmem/
 description: 
 nav: false
