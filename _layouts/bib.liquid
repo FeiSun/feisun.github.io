@@ -330,15 +330,14 @@
             </a>
           {% endif %}
           {% if site.enable_publication_badges.semantic_scholar and entry_has_semantic_scholar_badge %}
-            {% assign citation_count = semantic_scholar_citations entry.semantic_scholar_id %}
             <a
               href="https://www.semanticscholar.org/paper/{{ entry.semantic_scholar_id }}"
               aria-label="Semantic Scholar link"
               role="button"
             >
               <img
-                src="https://img.shields.io/badge/🔥H--Impact-{{ citation_count }}-273d72?logo=semanticscholar&style=flat-square&logoColor=%23273d72&labelColor=f6f6f6&color=%23273d72"
-                alt="{{ citation_count }} Semantic Scholar influential citations"
+                src="https://img.shields.io/badge/🔥H--Impact-{% semantic_scholar_citations entry.semantic_scholar_id %}-273d72?logo=semanticscholar&style=flat-square&logoColor=%23273d72&labelColor=f6f6f6&color=%23273d72"
+                alt="{% semantic_scholar_citations entry.semantic_scholar_id %} Semantic Scholar influential citations"
               >
             </a>
           {% endif %}
