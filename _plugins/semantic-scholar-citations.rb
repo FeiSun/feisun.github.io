@@ -61,7 +61,7 @@ module Jekyll
       end
 
       # Return the result
-      citation_count
+      return "#{citation_count}"
     end
   end
 end
