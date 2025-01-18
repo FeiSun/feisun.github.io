@@ -271,11 +271,16 @@
         {% assign entry_has_google_scholar_badge = true %}
       {% endif %}
 
+      {% assign entry_has_semantic_scholar_badge = false %}
+      {% if entry.semantic_scholar_id %}
+        {% assign entry_has_semantic_scholar_badge = true %}
+      {% endif %}
+
       {% assign entry_has_inspirehep_badge = false %}
       {% if entry.inspirehep_id %}
         {% assign entry_has_inspirehep_badge = true %}
       {% endif %}
-      {% if entry_has_altmetric_badge or entry_has_dimensions_badge or entry_has_google_scholar_badge or entry_has_inspirehep_badge %}
+      {% if entry_has_altmetric_badge or entry_has_dimensions_badge or entry_has_google_scholar_badge or entry_has_semantic_scholar_badge or entry_has_inspirehep_badge %}
         <div class="badges">
           {% if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
             <span
@@ -321,6 +326,18 @@
               <img
                 src="https://img.shields.io/badge/scholar-{% google_scholar_citations site.data.socials.scholar_userid entry.google_scholar_id %}-4285F4?logo=googlescholar&style=flat-square&labelColor=beige"
                 alt="{% google_scholar_citations site.data.socials.scholar_userid entry.google_scholar_id %} Google Scholar citations"
+              >
+            </a>
+          {% endif %}
+          {% if site.enable_publication_badges.semantic_scholar and entry_has_semantic_scholar_badge %}
+            <a
+              href="https://www.semanticscholar.org/paper/{{ entry.semantic_scholar_id }}"
+              aria-label="Semantic Scholar link"
+              role="button"
+            >
+              <img
+                src="https://img.shields.io/badge/🔥H--Impact-{% semantic_scholar_citations entry.semantic_scholar_id %}-273d72?logo=semanticscholar&style=flat-square&logoColor=%23273d72&labelColor=white&color=%23273d72"
+                alt="{% semantic_scholar_citations entry.semantic_scholar_id %} Semantic Scholar influential citations"
               >
             </a>
           {% endif %}
