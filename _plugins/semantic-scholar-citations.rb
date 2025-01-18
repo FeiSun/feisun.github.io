@@ -30,43 +30,47 @@ module Jekyll
       paper_id = context[@paper_id_var.strip] || @paper_id_var.strip
       
       # If we've already fetched it, just return cached
-      return CitationsCache[paper_id] if CitationsCache.key?(paper_id)
+      #   return CitationsCache[paper_id] if CitationsCache.key?(paper_id)
 
       # Build the Semantic Scholar API URL
       # For docs, see: https://api.semanticscholar.org/api-docs/graph 
       # Example endpoint: https://api.semanticscholar.org/graph/v1/paper/<PAPER_ID>?fields=citationCount
       citation_count = 0
-      api_url = "https://api.semanticscholar.org/graph/v1/paper/#{paper_id}?fields=citationCount"
+      api_url = "https://api.semanticscholar.org/graph/v1/paper/#{paper_id}?fields=influentialCitationCount"
 
       begin
         # Sleep to reduce the chance of being throttled if making many requests
-        sleep(rand(1.5..3.5))
+        # sleep(rand(1.5..3.5))
 
-        # Fetch the JSON response
-        response = URI.open(api_url, "User-Agent" => "Ruby/#{RUBY_VERSION}").read
-        data = JSON.parse(response)
+        max_retries = 5
+        attempt = 0
 
-        # Extract the citationCount (if available)
-        citation_count_raw = data["citationCount"] || 0
-
-        # Convert to a human-readable format (e.g., 1.2K, 1M, etc.)
-        citation_count = Helpers.number_to_human(
-          citation_count_raw,
-          format: '%n%u',
-          precision: 2,
-          units: {
-            thousand: 'K',
-            million: 'M',
-            billion: 'B'
-          }
-        )
-      rescue StandardError => e
-        citation_count = "N/A"
-        puts "Error fetching citation count for paper #{paper_id} from #{api_url}: #{e.class} - #{e.message}"
-      end
+        max_retries.times do |attempt|
+            begin
+                sleep(rand(1.5..3.5))
+                # Fetch the JSON response
+                response = URI.open(api_url, "User-Agent" => "Ruby/#{RUBY_VERSION}").read
+                data = JSON.parse(response)
+                citation_count_raw = data["citationCount"] || 0
+                citation_count = Helpers.number_to_human(
+                                        citation_count_raw,
+                                        format: '%n%u',
+                                        precision: 2,
+                                        units: {
+                                            thousand: 'K',
+                                            million: 'M',
+                                            billion: 'B'
+                                        }
+                                        )
+                break
+            rescue StandardError => e
+                puts "Attempt #{attempt} failed for #{paper_id}: #{e.class} - #{e.message}"
+                citation_count = "N/A" if attempt >= max_retries
+            end
+        end
 
       # Store and return the result
-      CitationsCache[paper_id] = citation_count
+      #   CitationsCache[paper_id] = citation_count
       citation_count
     end
   end
