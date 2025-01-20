@@ -5,8 +5,11 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
-        <span class="font-weight-bold" style="font-family: 'Cairo Play'">{{ site.first_name }}</span> <span style="color: var(--global-text-color);"> {{ site.middle_name }}
-          {{ site.last_name }} (<span style="font-family: LuXun; color: var(--global-text-color);"> 孙飞 </span>) </span>
+        <span class="font-weight-bold" style="font-family: 'Cairo Play'">{{ site.first_name }}</span> 
+        <span style="color: var(--global-text-color);"> {{ site.middle_name }} {{ site.last_name }} </span> 
+        <span style="font-size: 2rem; color: var(--global-text-color);"> ( </span> 
+        <span style="font-family: LuXun; color: var(--global-text-color); margin-right: -0.6rem; margin-left: -0.4rem;"> 孙飞 </span>
+        <span style="font-size: 2rem; color: var(--global-text-color);"> ) </span>
       {% else %}
         {{ site.title }}
       {% endif %}
