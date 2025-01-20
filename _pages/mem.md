@@ -1,13 +1,24 @@
 ---
-layout: page
+layout: default
 title: Mem
-permalink: /confmem/
+permalink: /mem/
 description: 
 nav: false
 nav_order: 6
-display_categories: [RecSys]
-horizontal: false
+pagination:
+  enabled: true
+  collection: mem  # 这里改为 mem
+  permalink: /page/:num/
+  per_page: 10
+  sort_field: date
+  sort_reverse: true
+  trail:
+    before: 1
+    after: 3
 ---
+
+
+
 
 <!-- pages/projects.md -->
 <div class="projects">

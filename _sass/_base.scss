@@ -1570,6 +1570,7 @@ strong {
 // }
 
 // font
+
 // @font-face {
 //   font-family: 'Cairo Play';
 //   src: url('/assets/fonts/CairoPlay-Regular.ttf') format('truetype');
@@ -1583,3 +1584,9 @@ strong {
 //   font-weight: 700;
 //   font-style: normal;
 // }
+
+@font-face {
+  font-family: 'SuShi';
+  src: url('/assets/fonts/sushi.ttf') format('truetype');
+}
+
