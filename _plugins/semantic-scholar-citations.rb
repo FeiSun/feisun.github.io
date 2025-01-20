@@ -26,10 +26,9 @@ module Jekyll
 
       # Build the Semantic Scholar API URL
       citation_count = 0
+      max_retries = 10
       api_url = "https://api.semanticscholar.org/graph/v1/paper/#{paper_id}?fields=influentialCitationCount"
       puts "[Debug] API URL: #{api_url}"
-
-      max_retries = 10
 
       max_retries.times do |attempt|
         begin

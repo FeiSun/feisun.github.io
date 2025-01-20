@@ -129,10 +129,8 @@ layout: default
             {% else %}
               <div class="col-md-12 justify-content-center">
                 <h3 class="mt-4 text-center">{{ cat_key }}</h3>
-                {% assign half_member = members.size | divided_by: 2 %}
-                {% if half_member != members.size - half_member %}
-                  {% assign half_member = half_member | plus: 1 %}
-                {% endif %}
+                {% assign member_count = members | size %}
+                {% assign half_size = member_count | divided_by: 2.0 | ceil %}
                 <div class="row justify-content-center">
                   <div class="col-md-5">
                     {% for member in members limit: half_member %}
