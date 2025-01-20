@@ -28,12 +28,12 @@ module Jekyll
       citation_count = 0
       api_url = "https://api.semanticscholar.org/graph/v1/paper/#{paper_id}?fields=influentialCitationCount"
 
-      max_retries = 5
+      max_retries = 10
 
       max_retries.times do |attempt|
         begin
           # Sleep to avoid being throttled
-          sleep(rand(1.5..3.5))
+          sleep(rand(2.0))
 
           # Fetch the JSON response
           response = URI.open(api_url, "User-Agent" => "Ruby/#{RUBY_VERSION}").read
@@ -61,6 +61,9 @@ module Jekyll
       end
 
       # Return the result
+      # final_value = citation_count.to_s.strip.empty? ? "N/A" : citation_count.to_s.strip
+      # puts "Debug - Final citation count for #{paper_id}: '#{final_value}'"
+      # final_value
       return "#{citation_count}"
     end
   end
