@@ -44,6 +44,8 @@ module Jekyll
 
           # Extract influential citation count
           citation_count_raw = data["influentialCitationCount"] || 0
+          puts "[Debug] raw citation count: #{citation_count_raw}"
+
           citation_count = Helpers.number_to_human(
             citation_count_raw,
             format: "%n%u",
@@ -54,6 +56,7 @@ module Jekyll
               billion: "B"
             }
           )
+          puts "[Debug] Formatted citation count: #{citation_count}"
 
           # Exit the retry loop if successful
           break
@@ -67,6 +70,8 @@ module Jekyll
       # final_value = citation_count.to_s.strip.empty? ? "N/A" : citation_count.to_s.strip
       # puts "Debug - Final citation count for #{paper_id}: '#{final_value}'"
       # final_value
+      puts "[Debug] Final return value: '#{citation_count}'"
+
       return "#{citation_count}"
     end
   end
