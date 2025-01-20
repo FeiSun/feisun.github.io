@@ -27,6 +27,7 @@ module Jekyll
       # Build the Semantic Scholar API URL
       citation_count = 0
       api_url = "https://api.semanticscholar.org/graph/v1/paper/#{paper_id}?fields=influentialCitationCount"
+      puts "[Debug] API URL: #{api_url}"
 
       max_retries = 10
 
@@ -37,7 +38,9 @@ module Jekyll
 
           # Fetch the JSON response
           response = URI.open(api_url, "User-Agent" => "Ruby/#{RUBY_VERSION}").read
+          puts "[Debug] Raw API Response: #{response}"
           data = JSON.parse(response)
+          puts "[Debug] Parsed JSON: #{data.inspect}"
 
           # Extract influential citation count
           citation_count_raw = data["influentialCitationCount"] || 0
