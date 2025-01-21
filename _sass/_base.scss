@@ -1594,3 +1594,36 @@ strong {
   font-family: 'LuXun';
   src: url('/assets/fonts/luxun.ttf') format('truetype');
 }
+
+
+.descr-info {
+  position: relative; /* So the tooltiptext is positioned absolutely inside */
+  display: inline-block;
+  cursor: help;       /* Makes it clear it’s something informative */
+}
+
+/* Initially, keep the tooltip text hidden */
+.descr-info .descr-info-text {
+  visibility: hidden;
+  width: auto;           /* Adjust or set a fixed width, e.g., 140px */
+  background-color: #333; 
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 6px 10px;
+  position: absolute;
+  z-index: 100;
+  bottom: 125%;  /* Position above the hovered text. Adjust as needed. */
+  left: 50%;
+  transform: translateX(-50%);
+
+  /* If you’d like a small arrow, you can add a pseudo-element here */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Show the tooltip on hover */
+.descr-info:hover .descr-info-text {
+  visibility: visible;
+  opacity: 1;
+}
