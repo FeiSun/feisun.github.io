@@ -1602,28 +1602,52 @@ strong {
   cursor: help;       /* Makes it clear it’s something informative */
 }
 
-/* Initially, keep the tooltip text hidden */
 .descr-info .descr-info-text {
-  visibility: hidden;
-  width: auto;           /* Adjust or set a fixed width, e.g., 140px */
-  background-color: #333; 
-  color: #fff;
-  text-align: center;
-  border-radius: 4px;
-  padding: 6px 10px;
-  position: absolute;
-  z-index: 100;
-  bottom: 125%;  /* Position above the hovered text. Adjust as needed. */
-  left: 50%;
-  transform: translateX(-50%);
-
-  /* If you’d like a small arrow, you can add a pseudo-element here */
-  opacity: 0;
-  transition: opacity 0.3s;
+  visibility: hidden; /* 默认隐藏 */
+  opacity: 0; /* 默认透明 */
+  pointer-events: none; /* 防止鼠标交互 */
+  width: auto; /* 自动宽度 */
+  max-width: 300px; /* 可选：限制提示框最大宽度 */
+  white-space: nowrap; /* 强制内容在一行显示 */
+  overflow: hidden; /* 如果内容超出，隐藏溢出部分 */
+  text-overflow: ellipsis; /* 如果内容超出，显示省略号（...） */
+  font-size: 12px; /* 设置较小的字体 */
+  background-color: #333; /* 提示框背景色 */
+  color: #fff; /* 提示框文字颜色 */
+  text-align: center; /* 文本居中 */
+  border-radius: 4px; /* 提示框圆角 */
+  padding: 4px 8px; /* 调整内边距 */
+  position: absolute; /* 绝对定位 */
+  z-index: 100; /* 保证提示框显示在最前 */
+  bottom: 125%; /* 放置在触发元素上方 */
+  left: 50%; /* 水平居中 */
+  transform: translateX(-50%); /* 居中对齐 */
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
+
+/* Initially, keep the tooltip text hidden */
+// .descr-info .descr-info-text {
+//   visibility: hidden;
+//   width: auto;           /* Adjust or set a fixed width, e.g., 140px */
+//   background-color: #333; 
+//   color: #fff;
+//   text-align: center;
+//   border-radius: 4px;
+//   padding: 6px 10px;
+//   position: absolute;
+//   z-index: 100;
+//   bottom: 125%;  /* Position above the hovered text. Adjust as needed. */
+//   left: 50%;
+//   transform: translateX(-50%);
+
+//   /* If you’d like a small arrow, you can add a pseudo-element here */
+//   opacity: 0;
+//   transition: opacity 0.3s;
+// }
 
 /* Show the tooltip on hover */
 .descr-info:hover .descr-info-text {
-  visibility: visible;
-  opacity: 1;
+  visibility: visible; /* 鼠标悬停时显示提示框 */
+  opacity: 1; /* 提示框变为不透明 */
+  pointer-events: auto; /* 鼠标悬停时允许交互 */
 }
