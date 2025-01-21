@@ -1612,8 +1612,8 @@ strong {
   overflow: hidden; /* 如果内容超出，隐藏溢出部分 */
   text-overflow: ellipsis; /* 如果内容超出，显示省略号（...） */
   font-size: 12px; /* 设置较小的字体 */
-  background-color: #333; /* 提示框背景色 */
-  color: #fff; /* 提示框文字颜色 */
+  background-color: var(--global-card-bg-color); // #333; /* 提示框背景色 */
+  color: var(--global-text-color) // #fff; /* 提示框文字颜色 */
   text-align: center; /* 文本居中 */
   border-radius: 4px; /* 提示框圆角 */
   padding: 4px 8px; /* 调整内边距 */
