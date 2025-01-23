@@ -133,7 +133,7 @@ layout: default
                 {% assign half_size = member_count | divided_by: 2.0 | ceil %}
                 <div class="row justify-content-center">
                   <div class="col-md-5">
-                    {% for member in members limit: half_member %}
+                    {% for member in members limit: half_size %}
                       <div class="mb-3">
                         {% if member.url %}
                           <a href="{{ member.url }}">
@@ -150,7 +150,7 @@ layout: default
                     {% endfor %}
                   </div>
                   <div class="col-md-5">
-                    {% for member in members offset: half_member %}
+                    {% for member in members offset: half_size %}
                       <div class="mb-3">
                         {% if member.url %}
                           <a href="{{ member.url }}">
