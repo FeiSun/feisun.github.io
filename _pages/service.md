@@ -18,6 +18,11 @@ nav_order: 5
 * TACL (standing reviewer)
 * CSUR, TOIS, TKDE, TASLP, TIST, JAIR
 
+### **Area Chair**
+
+* 2025: ARR
+
+
 ### **Senior Program Committee**
 
 * 2025: WebConf (short), SIGIR, IJCAI
