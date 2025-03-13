@@ -113,11 +113,31 @@ ninja.data = [{
           section: "News",},{id: "news-will-serve-as-an-ac-for-arr",
           title: 'Will serve as an AC for ARR.',
           description: "",
-          section: "News",},{id: "people-chenzhenxing",
-          title: 'Chenzhenxing',
+          section: "News",},{id: "people-0zhusijia",
+          title: '0zhusijia',
           description: "",
           section: "People",handler: () => {
-              window.location.href = "/people/chenzhenxing/";
+              window.location.href = "/people/0zhusijia/";
+            },},{id: "people-1pujiayue",
+          title: '1pujiayue',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/1pujiayue/";
+            },},{id: "people-1tangrui",
+          title: '1tangrui',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/1tangrui/";
+            },},{id: "people-2chenzhenxing",
+          title: '2chenzhenxing',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/2chenzhenxing/";
+            },},{id: "people-2liuxun",
+          title: '2liuxun',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/2liuxun/";
             },},{id: "people-haowenli",
           title: 'Haowenli',
           description: "",
@@ -128,21 +148,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/jiajun/";
-            },},{id: "people-pujiayue",
-          title: 'Pujiayue',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/pujiayue/";
             },},{id: "people-shaliu",
           title: 'Shaliu',
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/shaliu/";
-            },},{id: "people-tangrui",
-          title: 'Tangrui',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/tangrui/";
             },},{id: "people-tanhexiang",
           title: 'Tanhexiang',
           description: "",
@@ -153,16 +163,6 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/wanli/";
-            },},{id: "people-xunliu",
-          title: 'Xunliu',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/xunliu/";
-            },},{id: "people-zhusijia",
-          title: 'Zhusijia',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/zhusijia/";
             },},{id: "people-zongdanyang",
           title: 'Zongdanyang',
           description: "",
