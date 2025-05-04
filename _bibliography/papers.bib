@@ -2,15 +2,52 @@
 ---
 
 
-@inproceedings{zhang-2025-fall,
+@inproceedings{li-etal-2025-prdetect,
     bibtex_show={true},
-    abbr = {WebConf},
-    review = {www25_zhang.html},
-    title = "Personalized Denoising Implicit Feedback for Robust Recommender System",
-    author = {Zhang, Kaike and Cao, Qi and Wu, Yunfan and Sun, Fei and Shen, Huawei and Cheng, Xueqi},
-    booktitle = "WebConf",
-    month = May,
+    abbr = {NAACL (Findings)},
+    title = "{PRD}etect: Perturbation-Robust {LLM}-generated Text Detection Based on Syntax Tree",
+    author = "Li, Xiang  and
+      Yin, Zhiyi  and
+      Tan, Hexiang  and
+      Jing, Shaoling  and
+      Su, Du  and
+      Cheng, Yi  and
+      Shen, Huawei  and
+      Sun, Fei",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2025",
+    month = apr,
     year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-naacl.464/",
+    pdf={https://aclanthology.org/2025.findings-naacl.464.pdf},
+    pages = "8290--8301",
+    ISBN = "979-8-89176-195-7",
+    abstract = "As LLM-generated text becomes increasingly prevalent on the internet, often containing hallucinations or biases, detecting such content has emerged as a critical area of research.Recent methods have demonstrated impressive performance in detecting text generated entirely by LLMs.However, in real-world scenarios, users often introduce perturbations to the LLM-generated text, and the robustness of existing detection methods against these perturbations has not been sufficiently explored.This paper empirically investigates this challenge and finds that even minor perturbations can severely degrade the performance of current detection methods. To address this issue, we find that the syntactic tree is minimally affected by disturbances and exhibits distinct differences between human-written and LLM-generated text.Therefore, we propose a detection method based on syntactic trees, which can capture features invariant to perturbations.It demonstrates significantly improved robustness against perturbation on the HC3 and GPT-3.5-mixed datasets.Moreover, it also has the shortest time expenditure.We provide the code and data at https://github.com/thulx18/PRDetect."
+}
+
+@inproceedings{zhang-2025-fall,
+bibtex_show={true},
+abbr = {WebConf},
+author = {Zhang, Kaike and Cao, Qi and Wu, Yunfan and Sun, Fei and Shen, Huawei and Cheng, Xueqi},
+title = {Personalized Denoising Implicit Feedback for Robust Recommender System},
+year = {2025},
+isbn = {9798400712746},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3696410.3714932},
+pdf = {https://dl.acm.org/doi/pdf/10.1145/3696410.3714932},
+doi = {10.1145/3696410.3714932},
+abstract = {While implicit feedback is foundational to modern recommender systems, factors such as human error, uncertainty, and ambiguity in user behavior inevitably introduce significant noise into this feedback, adversely affecting the accuracy and robustness of recommendations. To address this issue, existing methods typically aim to reduce the training weight of noisy feedback or discard it entirely, based on the observation that noisy interactions often exhibit higher losses in the overall loss distribution. However, we identify two key issues: (1) there is a significant overlap between normal and noisy interactions in the overall loss distribution, and (2) this overlap becomes even more pronounced when transitioning from pointwise loss functions (e.g., BCE loss) to pairwise loss functions (e.g., BPR loss). This overlap leads traditional methods to misclassify noisy interactions as normal, and vice versa. To tackle these challenges, we further investigate the loss overlap and find that for a given user, there is a clear distinction between normal and noisy interactions in the user's personal loss distribution. Based on this insight, we propose a resampling strategy to Denoise using the user's Personal Loss distribution, named PLD, which reduces the probability of noisy interactions being optimized. Specifically, during each optimization iteration, we create a candidate item pool for each user and resample the items from this pool based on the user's personal loss distribution, prioritizing normal interactions. Additionally, we conduct a theoretical analysis to validate PLD's effectiveness and suggest ways to further enhance its performance. Extensive experiments conducted on three datasets with varying noise ratios demonstrate PLD's efficacy and robustness.},
+booktitle = {Proceedings of the ACM on Web Conference 2025},
+pages = {4470–4481},
+numpages = {12},
+keywords = {denoising recommendation, implicit feedback, robust recommender system},
+location = {Sydney NSW, Australia},
+series = {WWW '25}
 }
 
 @inproceedings{yang-etal-2024-fall,
