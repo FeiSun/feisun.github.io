@@ -14,6 +14,14 @@
   url: https://aclanthology.org/venues/emnlp
   color: "#F25D27"
 
+"NAACL":
+  url: https://aclanthology.org/venues/naacl
+  color: "#F25D27"
+
+"NAACL (Findings)":
+  url: https://aclanthology.org/venues/naacl
+  color: "#F25D27"
+
 "WebConf":
   color: "#F25D27"
 
