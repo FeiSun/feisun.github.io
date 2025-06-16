@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/workshop/";
           },
-        },{id: "post-a-post-with-image-galleries",
+        },{id: "post-embedding-heatmaps-in-latex-tables",
+      
+        title: "Embedding Heatmaps in LaTeX Tables",
+      
+      description: "How to use TikZ to add dynamic heatmap shading to LaTeX table cells.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/latex-table-heatmap/";
+        
+      },
+    },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
