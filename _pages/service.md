@@ -25,7 +25,7 @@ nav_order: 5
 
 ### **Senior Program Committee**
 
-* 2025: WebConf (short), SIGIR, IJCAI
+* 2025: WebConf (short), SIGIR, IJCAI, SIGIR-AP
 * 2022: AAAI
 * 2021: IJCAI
 
