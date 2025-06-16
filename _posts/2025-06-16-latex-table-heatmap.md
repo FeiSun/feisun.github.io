@@ -8,7 +8,7 @@ categories: latex
 featured: true
 ---
 
-In our ACL 2025 paper *The Mirage of Model Editing: Revisiting Evaluation in the Wild*, we needed a compact yet expressive way to present the performance degradation of model editing methods when moving from synthetic to real-world (Wild) evaluation settings.
+In our ACL 2025 paper *[The Mirage of Model Editing: Revisiting Evaluation in the Wild](https://arxiv.org/abs/2502.11177)*, we needed a compact yet expressive way to present the performance degradation of model editing methods when moving from synthetic to real-world (Wild) evaluation settings.
 
 The most natural way to highlight these performance drops is through a heatmap, where deeper colors indicate larger decreases. However, manually adding background colors to each table cell in LaTeX and calculating appropriate color gradients would be extremely tedious and error-prone.
 
