@@ -80,8 +80,9 @@ This is the core macro. It compares the WILD score with the corresponding synthe
 
 To help readers interpret the heatmap, we include a vertical color bar:
 
+{% raw %}
 ```latex
-\newcommand{\colorbarvertical}{%
+\newcommand{\colorbarvertical}{
     \begin{tikzpicture}
         % Create smooth vertical gradient
         \shade[top color=white, 
@@ -98,9 +99,10 @@ To help readers interpret the heatmap, we include a vertical color bar:
         \node[right] at (0.25, 0) {\footnotesize \pgfmathprintnumber[fixed,precision=0]{100}};
         \node[right] at (0.15, 6.5) {\small \textbf{\%}};
         \node[right] at (0.15, 7.7) {};
-    \end{tikzpicture}%
+    \end{tikzpicture}
 }
 ```
+{% endraw %}
 
 #### How It Works
 
