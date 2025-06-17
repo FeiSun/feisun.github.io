@@ -324,14 +324,14 @@
               role="button"
             >
               <img
-                src="https://img.shields.io/badge/scholar-{% google_scholar_citations site.data.socials.scholar_userid entry.google_scholar_id %}-4285F4?logo=googlescholar&style=flat-square&labelColor=f6f6f6"
-                alt="{% google_scholar_citations site.data.socials.scholar_userid entry.google_scholar_id %} Google Scholar citations"
+                src="https://img.shields.io/badge/scholar-{% google_scholar_citations_loc entry.google_scholar_id %}-4285F4?logo=googlescholar&style=flat-square&labelColor=f6f6f6"
+                alt="{% google_scholar_citations_loc entry.google_scholar_id %} Google Scholar citations"
               >
             </a>
           {% endif %}
           {% if site.enable_publication_badges.semantic_scholar and entry_has_semantic_scholar_badge %}
-            {% capture h_citation_count %}
-              {% semantic_scholar_citations entry.semantic_scholar_id %}
+            {% capture citation_count %}
+              {% semantic_scholar_citations_loc entry.semantic_scholar_id %}
             {% endcapture %}
             <a
               href="https://www.semanticscholar.org/paper/{{ entry.semantic_scholar_id }}"
@@ -339,8 +339,8 @@
               role="button"
             >
               <img
-                src="https://img.shields.io/badge/🔥H--Impact-{{ h_citation_count }}-273d72?logo=semanticscholar&style=flat-square&logoColor=%23273d72&labelColor=f6f6f6&color=%23273d72"
-                alt="{{ h_citation_count }} Semantic Scholar influential citations"
+                src="https://img.shields.io/badge/🔥H--Impact-{{ citation_count }}-273d72?logo=semanticscholar&style=flat-square&logoColor=%23273d72&labelColor=f6f6f6&color=%23273d72"
+                alt="{{ citation_count }} Semantic Scholar influential citations"
               >
             </a>
           {% endif %}

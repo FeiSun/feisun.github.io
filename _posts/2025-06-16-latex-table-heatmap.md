@@ -25,12 +25,12 @@ Here's what the final result looks like:
 
 ### heatmap
 
-#### `\numwild{<wild_value>}{<synthetic_value>}`
+`\numwild{<wild_value>}{<synthetic_value>}`
 
 This is the core macro. It compares the WILD score with the corresponding synthetic score and calculates the percentage drop. Then, it dynamically fills the background color intensity using TikZ.
 
 ```latex
-\newcommand{\numrwe}[2]{
+\newcommand{\numwild}[2]{
     \begin{tikzpicture}[baseline]
         \pgfmathparse{#1 > #2 ? 1 : 0}
         \ifnum\pgfmathresult=0
@@ -145,9 +145,9 @@ Using this approach in your tables is straightforward. Here's a minimal example 
 Method & \multicolumn{2}{c}{Reliability} & \multicolumn{2}{c}{Generalization} \\
        & syn. & \textsc{Wild} & syn. & \textsc{Wild} \\
 \cmidrule(lr){2-3} \cmidrule(lr){4-5}
-FT-M   & 1.000 & \numrwe{0.562}{1.000} & 0.950 & \numrwe{0.470}{0.950} \\
-MEND   & 0.967 & \numrwe{0.288}{0.967} & 0.949 & \numrwe{0.244}{0.949} \\
-ROME   & 0.964 & \numrwe{0.741}{0.964} & 0.811 & \numrwe{0.656}{0.811} \\
+FT-M   & 1.000 & \numwild{0.562}{1.000} & 0.950 & \numwild{0.470}{0.950} \\
+MEND   & 0.967 & \numwild{0.288}{0.967} & 0.949 & \numwild{0.244}{0.949} \\
+ROME   & 0.964 & \numwild{0.741}{0.964} & 0.811 & \numwild{0.656}{0.811} \\
 \bottomrule
 \end{tabular}
 \caption{Performance comparison with automatic heatmap coloring}
