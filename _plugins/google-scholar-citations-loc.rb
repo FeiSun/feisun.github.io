@@ -38,7 +38,15 @@ module Jekyll
         end
 
         # Format the citation count
-        citation_count = Helpers.number_to_human(citation_count, :format => '%n%u', :precision => 2, :units => { :thousand => 'K', :million => 'M', :billion => 'B' })
+        # Only abbreviate if >= 1000, otherwise show as integer
+        if citation_count >= 1000
+          citation_count = Helpers.number_to_human(
+            citation_count,
+            :format => '%n%u',
+            :precision => 2,
+            :units => { :thousand => 'K', :million => 'M', :billion => 'B' }
+          )
+        end
 
       rescue Exception => e
         # Handle any errors that may occur during reading
