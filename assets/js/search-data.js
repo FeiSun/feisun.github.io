@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/workshop/";
           },
-        },{id: "post-embedding-heatmaps-in-latex-tables",
+        },{id: "post-tikz-gallery",
+      
+        title: "TikZ Gallery",
+      
+      description: "A collection of TikZ examples in my papers.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/tikz-gallery/";
+        
+      },
+    },{id: "post-embedding-heatmaps-in-latex-tables",
       
         title: "Embedding Heatmaps in LaTeX Tables",
       
