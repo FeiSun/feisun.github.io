@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "TikZ Gallery"
-date: 2025-06-21 22:30:00
+date: 2025-06-20 22:30:00
 description: A collection of TikZ examples in my papers.
 tags: latex tikz
 categories: latex
