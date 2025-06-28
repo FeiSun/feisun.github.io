@@ -32,6 +32,10 @@
   url: https://neurips.cc
   color: "#F25D27"
 
+"ICML":
+  url: https://icml.cc/
+  color: "#F25D27"
+
 "CIKM":
   url: http://www.cikmconference.org
   color: "#F25D27"
