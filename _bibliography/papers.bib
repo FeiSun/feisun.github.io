@@ -13,12 +13,62 @@
       Ma, Xinyu  and
       Cao, Qi  and
       Yin, Dawei  and
-      Shen, Huawei and
-      Xueqi Cheng",
-    booktitle = "ACL 2025",
+      Shen, Huawei  and
+      Cheng, Xueqi",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
     year = "2025",
-    url = "https://arxiv.org/abs/2502.11177",
-    pdf={https://arxiv.org/abs/2502.11177},
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.745/",
+    pdf={https://aclanthology.org/2025.acl-long.745.pdf},
+    pages = "15336--15354",
+    ISBN = "979-8-89176-251-0",
+    abstract = "Despite near-perfect results reported in the literature, the effectiveness of model editing in real-world applications remains unclear. To bridge this gap, we introduce QAEdit, a new benchmark aligned with widely used question answering (QA) datasets, and WILD, a task-agnostic evaluation framework designed to better reflect real-world usage of model editing. Our single editing experiments show that current editing methods perform substantially worse than previously reported (38.5{\%} vs. 96.8{\%}). We demonstrate that it stems from issues in the synthetic evaluation practices of prior work. Among them, the most severe is the use of teacher forcing during testing, which leaks both content and length of the ground truth, leading to overestimated performance. Furthermore, we simulate practical deployment by sequential editing, revealing that current approaches fail drastically with only 1000 edits. This work calls for a shift in model editing research toward rigorous evaluation and the development of robust, scalable methods that can reliably update knowledge in LLMs for real-world use."
+}
+
+@inproceedings{huang-etal-2025-low,
+    bibtex_show={true},
+    abbr = {ACL (Findings)},
+    title = "Low-Entropy Watermark Detection via {B}ayes' Rule Derived Detector",
+    author = "Huang, Beining  and
+      Su, Du  and
+      Sun, Fei  and
+      Cao, Qi  and
+      Shen, Huawei  and
+      Cheng, Xueqi",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.739/",
+    pdf={https://aclanthology.org/2025.findings-acl.739.pdf},
+    pages = "14330--14344",
+    ISBN = "979-8-89176-256-5",
+    abstract = "Text watermarking, which modify tokens to embed watermark, has proven effective in detecting machine-generated texts. Yet its application to low-entropy texts like code and mathematics presents significant challenges. A fair number of tokens in these texts are hardly modifiable without changing the intended meaning, causing statistical measures to falsely indicate the absence of a watermark. Existing research addresses this issue by rely mainly on a limited number of high-entropy tokens, which are considered flexible for modification, and accurately reflecting watermarks. However, their detection accuracy remains suboptimal, as they neglect strong watermark evidences embedded in low entropy tokens modified through watermarking. To overcome this limitation, we introduce Bayes' Rule derived Watermark Detector (BRWD), which exploit watermark information from every token, by leveraging the posterior probability of watermark{'}s presence. We theoretically prove the optimality of our method in terms of detection accuracy, and demonstrate its superiority across various datasets, models, and watermark injection strategies. Notably, our method achieves up to 50{\%} and 70{\%} relative improvements in detection accuracy over the best baselines in code generation and math problem-solving tasks, respectively. Our code is available at https://github.com/cczslp/BRWD."
+}
+
+@inproceedings{hua-etal-2025-inductionbench,
+    bibtex_show={true},
+    abbr = {ACL},
+    title = "{I}nduction{B}ench: {LLM}s Fail in the Simplest Complexity Class",
+    author = "Hua, Wenyue  and
+      Wong, Tyler  and
+      Sun, Fei  and
+      Pan, Liangming  and
+      Jardine, Adam  and
+      Wang, William Yang",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.1287/",
+    pdf={https://aclanthology.org/2025.acl-long.1287.pdf},
+    pages = "26526--26546",
+    ISBN = "979-8-89176-251-0",
+    abstract = "Large language models (LLMs) have shown remarkable improvements in reasoning and many existing benchmarks have been addressed by models such as o1 and o3 either fully or partially. However, a majority of these benchmarks emphasize deductive reasoning, including mathematical and coding tasks in which rules such as mathematical axioms or programming syntax are clearly defined, based on which LLMs can plan and apply these rules to arrive at a solution. In contrast, \textit{inductive reasoning}, where one infers the underlying rules from observed data, remains less explored. Such inductive processes lie at the heart of scientific discovery, as they enable researchers to extract general principles from empirical observations. To assess whether LLMs possess this capacity, we introduce \textbf{InductionBench}, a new benchmark designed to evaluate the inductive reasoning ability of LLMs. Our experimental findings reveal that even the most advanced modelw available struggle to master the simplest complexity classes within the subregular hierarchy of functions, highlighting a notable deficiency in current LLMs' inductive reasoning capabilities. Coda and data are available \url{https://anonymous.4open.science/r/inductive_reasoning_benchmark-BB2D}."
 }
 
 @inproceedings{li-etal-2025-reinforced,
