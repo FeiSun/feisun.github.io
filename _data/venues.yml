@@ -48,6 +48,10 @@
   url: https://ieeexplore.ieee.org/xpl/conhome/1000178/all-proceedings
   color: "#F25D27"
 
+"SIGIR (Short)":
+  url: https://sigir.org
+  color: "#F25D27"
+
 "SIGIR":
   url: https://sigir.org
   color: "#F25D27"
