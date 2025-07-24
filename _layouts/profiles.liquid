@@ -106,6 +106,8 @@ layout: default
         {% for category in site.data.alumni %}
           {% assign cat_key = category[0] %}
           {% assign members = category[1] %}
+          {% if members.size > 0 %}
+            
               <div class="col-md-12 justify-content-center">
                 <h3 class="mt-4 text-center">{{ cat_key }}</h3>
                 {% assign member_count = members | size %}
@@ -147,7 +149,6 @@ layout: default
                   </div>
                 </div>
               </div>
-            {% endif %}
           {% endif %}
         {% endfor %}
       </div>
