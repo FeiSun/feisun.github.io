@@ -106,29 +106,6 @@ layout: default
         {% for category in site.data.alumni %}
           {% assign cat_key = category[0] %}
           {% assign members = category[1] %}
-          {% if members.size > 0 %}
-            {% comment %}
-            {% if total_categories > 1 %}
-              <div class="col-lg-3 col-md-5 col-sm-12 justify-content-center">
-                <h3 class="mt-4">{{ cat_key }}</h3>
-                {% for member in members %}
-                  <div class="mb-3">
-                    {% if member.url %}
-                      <a href="{{ member.url }}">
-                        <strong>{{ member.name }}</strong>
-                      </a>
-                    {% else %}
-                      <strong>{{ member.name }}</strong>
-                    {% endif %}
-                    {% if member.note %}
-                      <br>
-                      <span class="text-muted">{{ member.note }}</span>
-                    {% endif %}
-                  </div>
-                {% endfor %}
-              </div>
-            {% else %}
-            {% endcomment %}
               <div class="col-md-12 justify-content-center">
                 <h3 class="mt-4 text-center">{{ cat_key }}</h3>
                 {% assign member_count = members | size %}
