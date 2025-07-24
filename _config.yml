@@ -12,11 +12,11 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Associate professor @ Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS).
 footer_text: >
   
-keywords: Fei Sun, Recommendation, Recommender System, AI safety, NLP, ICT # add your own keywords or leave empty
+keywords: Fei Sun, Recommendation, Recommender System (RecSys), AI safety, Natural Language Processing (NLP), ICT, Computer Science (CS) # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: avatar.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://feisun.github.io # the base hostname & protocol for your site
+url: https://ofey.me # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -159,6 +159,14 @@ collections:
   mem:
     output: true
     permalink: /mem/:year/:title/
+
+# 如果mem需要显示标签和分类
+display_mem_tags: [Conference]
+display_mem_categories: []
+
+# 可以添加一个标题和描述
+mem_name: Memorization
+mem_description: Travel & Meeting Records
 
 
 announcements:
