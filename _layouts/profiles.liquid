@@ -107,6 +107,7 @@ layout: default
           {% assign cat_key = category[0] %}
           {% assign members = category[1] %}
           {% if members.size > 0 %}
+            {% comment %}
             {% if total_categories > 1 %}
               <div class="col-lg-3 col-md-5 col-sm-12 justify-content-center">
                 <h3 class="mt-4">{{ cat_key }}</h3>
@@ -127,6 +128,7 @@ layout: default
                 {% endfor %}
               </div>
             {% else %}
+            {% endcomment %}
               <div class="col-md-12 justify-content-center">
                 <h3 class="mt-4 text-center">{{ cat_key }}</h3>
                 {% assign member_count = members | size %}
