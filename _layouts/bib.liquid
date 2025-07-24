@@ -184,7 +184,7 @@
         {% for link in custom_links %}
           {% assign link_parts = link | split: ': ' %}
           {% if link_parts.size == 2 %}
-            <a href="{{ link_parts[1] }}" class="btn btn-sm z-depth-0" role="button">{{ link_parts[0] | capitalize }}</a>
+            <a href="{{ link_parts[1] }}" class="btn btn-sm z-depth-0" role="button" style="background-color: #d9534f; border: none;">{{ link_parts[0] | capitalize }}</a>
           {% endif %}
         {% endfor %}
       {% endif %}
