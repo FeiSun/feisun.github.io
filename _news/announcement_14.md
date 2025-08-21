@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Three papers are accepted by **EMNLP 2025** about [Hallucination/Uncertainty Estimation](https://arxiv.org/abs/2505.17656)， [Backdoor](https://arxiv.org/abs/2505.23015), and Jailbreaking.
+Three papers are accepted by **EMNLP 2025** about [Hallucination/Uncertainty Estimation](https://arxiv.org/abs/2505.17656), [Backdoor](https://arxiv.org/abs/2505.23015), and Jailbreaking.
