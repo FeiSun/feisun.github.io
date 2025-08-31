@@ -33,6 +33,7 @@ I'm broadly interested in all aspects of machine learning, with a particular foc
 * **Safety challenges in AI applications**, especially in LLMs and RecSys.
 
 📊 Simple Stats About My Academic Life 🤓:
+* <img src="https://img.shields.io/badge/citations-{{ site.data.citation.google }}-4285F4?logo=googlescholar&style=flat-square&labelColor=f6f6f6" alt="{{ site.data.citation.google }} total Google Scholar citations">
 * 📝 [60 peer-reviewed papers](https://scholar.google.com/citations?user=OlRxBhcAAAAJ) in top conferences and journals.
 * 🏆 **Stanford University’s World’s Top 2% Scientists** ([2023](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6), [2024](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7)).
 * 📈 **~1/11** papers in GScholar's **top 100** (5Y); 
