@@ -35,7 +35,7 @@ I'm broadly interested in all aspects of machine learning, with a particular foc
 📊 Simple Stats About My Academic Life 🤓:
 * <img src="https://img.shields.io/badge/citations-{{ site.data.citation.google }}-4285F4?logo=googlescholar&style=flat-square&labelColor=f6f6f6" alt="{{ site.data.citation.google }} total Google Scholar citations">
 * 📝 [60 peer-reviewed papers](https://scholar.google.com/citations?user=OlRxBhcAAAAJ) in top conferences and journals.
-* 🏆 **Stanford University’s World’s Top 2% Scientists** ([2023](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6), [2024](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7), [2025](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/8)).
+* 🏆 **Stanford/Elsevier's World’s Top 2% Scientists** ([2023](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/6), [2024](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7), [2025](https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/8)).
 * 📈 **~1/11** papers in GScholar's **top 100** (5Y); 
   **4** in **top 20** [e.g., [1](https://scholar.google.com/citations?hl=en&vq=eng_databasesinformationsystems&view_op=list_hcore&venue=HdCtgB7kxZAJ.2025), [2](https://scholar.google.com/citations?hl=en&vq=eng_enggeneral&view_op=list_hcore&venue=AcMeFkiQ6ZEJ.2025), [3](https://scholar.google.com/citations?hl=en&vq=eng_databasesinformationsystems&view_op=list_hcore&venue=6AbX1YWluE4J.2025)].
 * 🎖 One paper ranks in the **top 3** most-cited papers in [CIKM’s history](https://www.semanticscholar.org/venue?name=cikm&sort=total-citations).
