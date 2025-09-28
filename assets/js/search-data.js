@@ -37,18 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/workshop/";
           },
-        },{id: "post-how-to-write-a-good-rebuttal",
-      
-        title: "How to write a good rebuttal?",
-      
-      description: "A collection of tips for writing a good rebuttal.",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/poster-tips/";
-        
-      },
-    },{id: "post-tikz-gallery",
+        },{id: "post-tikz-gallery",
       
         title: "TikZ Gallery",
       
