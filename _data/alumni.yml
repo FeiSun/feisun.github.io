@@ -3,9 +3,9 @@ PhD:
 Master:
 
 Undergraduate:
-  - name: "Xun Liu"
+  - name: "Xun Liu (UCAS 2025)"
     url: "https://antiquality.github.io/"
-    note: "2025, UIUC PhD, advisor: Bo Li"
+    note: "-> UIUC PhD, advisor: Bo Li"
 
 Intern:
   - name: "Chong Chen"
@@ -21,7 +21,7 @@ Intern:
     note: "Rutgers PhD, 2019 -> Kuaishou"
 
   - name: "Zhuofeng Wu"
-    url: "https://scholar.google.com/citations?user=bqinFgYAAAAJ"
+    url: "https://cserxy.github.io/"
     note: "UMich PhD, 2019 -> Amazon"
 
   - name: "Xu Xie"
