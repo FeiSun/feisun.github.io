@@ -121,11 +121,16 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/1tangrui/";
-            },},{id: "people-2chenzhenxing",
-          title: '2chenzhenxing',
+            },},{id: "people-banwenwei",
+          title: 'Banwenwei',
           description: "",
           section: "People",handler: () => {
-              window.location.href = "/people/2chenzhenxing/";
+              window.location.href = "/people/banwenwei/";
+            },},{id: "people-chenzhenxing",
+          title: 'Chenzhenxing',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/chenzhenxing/";
             },},{id: "people-haowenli",
           title: 'Haowenli',
           description: "",
@@ -146,6 +151,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/tanhexiang/";
+            },},{id: "people-wanghonglin",
+          title: 'Wanghonglin',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/wanghonglin/";
             },},{id: "people-wanli",
           title: 'Wanli',
           description: "",
