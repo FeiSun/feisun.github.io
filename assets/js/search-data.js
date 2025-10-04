@@ -111,6 +111,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/0zhusijia/";
+            },},{id: "people-1chenzhenxing",
+          title: '1chenzhenxing',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/1chenzhenxing/";
             },},{id: "people-1pujiayue",
           title: '1pujiayue',
           description: "",
@@ -121,16 +126,16 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/1tangrui/";
+            },},{id: "people-2wanli",
+          title: '2wanli',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/2wanli/";
             },},{id: "people-banwenwei",
           title: 'Banwenwei',
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/banwenwei/";
-            },},{id: "people-chenzhenxing",
-          title: 'Chenzhenxing',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/chenzhenxing/";
             },},{id: "people-haowenli",
           title: 'Haowenli',
           description: "",
@@ -156,11 +161,6 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/wanghonglin/";
-            },},{id: "people-wanli",
-          title: 'Wanli',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/wanli/";
             },},{id: "people-zongdanyang",
           title: 'Zongdanyang',
           description: "",
