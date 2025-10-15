@@ -140,6 +140,7 @@ Using this approach in your tables is straightforward. Here's a minimal example 
 
 ```latex
 \begin{table}
+\begin{minipage}{0.94\textwidth}
 \begin{tabular}{l cc cc}
 \toprule
 Method & \multicolumn{2}{c}{Reliability} & \multicolumn{2}{c}{Generalization} \\
@@ -150,6 +151,12 @@ MEND   & 0.967 & \numwild{0.288}{0.967} & 0.949 & \numwild{0.244}{0.949} \\
 ROME   & 0.964 & \numwild{0.741}{0.964} & 0.811 & \numwild{0.656}{0.811} \\
 \bottomrule
 \end{tabular}
+\end{minipage}
+\end{minipage}
+\hfil
+\begin{minipage}{0.05\textwidth}
+\colorbarvertical
+\end{minipage}
 \caption{Performance comparison with automatic heatmap coloring}
 \end{table}
 ```
