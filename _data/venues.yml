@@ -72,6 +72,14 @@
   url: https://www.ijcai.org/
   color: "#F25D27"
 
+"AAAI (Demo)":
+  url: https://aaai.org/
+  color: "#F25D27"
+
+"AAAI":
+  url: https://aaai.org/
+  color: "#F25D27"
+
 "TOIS":
   url: https://dl.acm.org/journal/tois
   color: "#4E52A6"
