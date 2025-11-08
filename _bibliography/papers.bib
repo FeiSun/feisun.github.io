@@ -44,6 +44,7 @@
     github={https://github.com/Tan-Hexiang/Too-Consistent-to-Detect},
     pages = "4755--4765",
     ISBN = "979-8-89176-332-6",
+    abstract = "As large language models (LLMs) often generate plausible but incorrect content, error detection has become increasingly critical to ensure truthfulness.However, existing detection methods often overlook a critical problem we term as **self-consistent error**, where LLMs repeatedly generate the same incorrect response across multiple stochastic samples.This work formally defines self-consistent errors and evaluates mainstream detection methods on them.Our investigation reveals two key findings: (1) Unlike inconsistent errors, whose frequency diminishes significantly as the LLM scale increases, the frequency of self-consistent errors remains stable or even increases.(2) All four types of detection methods significantly struggle to detect self-consistent errors.These findings reveal critical limitations in current detection methods and underscore the need for improvement.Motivated by the observation that self-consistent errors often differ across LLMs, we propose a simple but effective \textit{cross{-}model probe} method that fuses hidden state evidence from an external verifier LLM.Our method significantly enhances performance on self-consistent errors across three LLM families."
 }
 
 @inproceedings{fu-etal-2025-jailbreak,
@@ -67,6 +68,7 @@
     pdf={https://aclanthology.org/2025.emnlp-main.780.pdf},
     pages = "15455--15470",
     ISBN = "979-8-89176-332-6",
+    abstract = "To confront the ever-evolving safety risks of LLMs, automated jailbreak attacks have proven effective for proactively identifying security vulnerabilities at scale. Existing approaches, including GCG and AutoDAN, modify adversarial prompts to induce LLMs to generate responses that strictly follow a fixed affirmative template. However, we observed that the reliance on the rigid output template is ineffective for certain malicious requests, leading to suboptimal jailbreak performance. In this work, we aim to develop a method that is universally effective across all hostile requests. To achieve this, we explore LLMs' intrinsic safety mechanism: a refusal stance towards the adversarial prompt is formed in a confined region and ultimately leads to a rejective response. In light of this, we propose Stance Manipulation (SM), a novel automated jailbreak approach that generates jailbreak prompts to suppress the refusal stance and induce affirmative responses. Our experiments across four mainstream open-source LLMs demonstrate the superiority of SM{'}s performance. Under commenly used setting, SM achieves success rates over 77.1{\%} across all models on Advbench. Specifically, for Llama-2-7b-chat, SM outperforms the best baseline by 25.4{\%}. In further experiments with extended iterations in a speedup setup, SM achieves over 92.2{\%} attack success rate across all models. Our code is publicly available at https://github.com/Zed630/Stance-Manipulation."
 }
 
 @inproceedings{yang-etal-2025-mirage,
