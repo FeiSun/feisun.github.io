@@ -1,5 +1,5 @@
 ---
-name: ShiXuan Zhang
+name: Shixuan Zhang
 photo: zhangshixuan.jpg
 info: Undergraduate
 category: undergraduate
