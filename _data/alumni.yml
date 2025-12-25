@@ -3,6 +3,10 @@ PhD:
 Master:
 
 Undergraduate:
+  - name: "Jiayue Pu (UCAS 2026)"
+    url: "https://pujiayue.github.io/"
+    note: "-> RUC (GSAI) PhD, advisor: Jun Xu"
+
   - name: "Xun Liu (UCAS 2025)"
     url: "https://antiquality.github.io/"
     note: "-> UIUC PhD, advisor: Bo Li"
@@ -10,7 +14,7 @@ Undergraduate:
 Intern:
   - name: "Chong Chen"
     url: "https://chenchongthu.github.io/"
-    note: "THU PhD, 2021 -> Huawei"
+    note: "THU PhD, 2021 -> Huawei (Genius Youth)"
 
   - name: "Shiwen Wu"
     url: "https://scholar.google.com/citations?user=9tbaXDIAAAAJ"
