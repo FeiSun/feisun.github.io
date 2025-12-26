@@ -1,8 +1,8 @@
 ---
 name: Rui Tang
 photo: tangrui.jpg
-info: Undergraduate
-category: undergraduate
+info: Master Student (2026-)
+category: master
 
 homepage: https://rickt34.github.io/
 email: rick.tanng@gmail.com
