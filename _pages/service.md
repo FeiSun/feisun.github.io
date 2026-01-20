@@ -22,12 +22,13 @@ nav_order: 5
 
 ### **Area Chair**
 
-* 2025: ARR
+* 2026: ARR, ACL, COLM
+* 2025: ARR, ACL, EMNLP
 
 
 ### **Senior Program Committee**
 
-* 2026: WSDM (short), WebConf
+* 2026: WSDM (short), WebConf, SIGIR
 * 2025: WebConf (short), SIGIR, IJCAI, SIGIR-AP
 * 2022: AAAI
 * 2021: IJCAI
