@@ -14,17 +14,19 @@ nav_order: 5
 * [1st Workshop on Human-Centered Recommender Systems](https://human-centeredrec.github.io/) at WebConf 25
 * [Workshop on Natural Language Processing for Recommendations](https://wsdm2020-nlp4rec.github.io/) at WSDM 2020
 
-
 ### **Journal Reviews**
 
 * TACL (standing reviewer)
 * CSUR, TOIS, TKDE, TASLP, TIST, JAIR
 
+### **Senior Area Chair**
+
+* 2026: ARR, EMNLP
+
 ### **Area Chair**
 
 * 2026: ARR, ACL, COLM
 * 2025: ARR, ACL, EMNLP
-
 
 ### **Senior Program Committee**
 
