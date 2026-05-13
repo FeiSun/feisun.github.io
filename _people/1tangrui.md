@@ -6,7 +6,7 @@ category: master
 
 homepage: https://rickt34.github.io/
 email: rick.tanng@gmail.com
-# google_scholar: https://scholar.google.com/citations?user=example
+google_scholar: https://scholar.google.com/citations?user=KRLvvdoAAAAJ
 github: https://github.com/RickT34
 #facebook: https://www.facebook.com/example
 #x: https://x.com/example
