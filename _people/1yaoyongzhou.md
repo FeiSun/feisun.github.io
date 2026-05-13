@@ -1,6 +1,6 @@
 ---
 name: Yongzhou Yao
-photo: yaoyongzhou.jpg
+photo: yaoyongzhou.png
 info: Master Student (2026-)
 category: master
 
