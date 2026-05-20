@@ -145,6 +145,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/0zhusijia/";
+            },},{id: "people-1chenweilun",
+          title: '1chenweilun',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/1chenweilun/";
             },},{id: "people-1tangrui",
           title: '1tangrui',
           description: "",
