@@ -190,11 +190,6 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/wanghonglin/";
-            },},{id: "people-zongdanyang",
-          title: 'Zongdanyang',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/zongdanyang/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
