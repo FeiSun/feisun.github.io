@@ -30,7 +30,7 @@ nav_order: 5
 
 ### **Senior Program Committee**
 
-* 2026: WSDM (short), WebConf, SIGIR
+* 2026: WSDM (short), WebConf, SIGIR, CIKM
 * 2025: WebConf (short), SIGIR, IJCAI, SIGIR-AP
 * 2022: AAAI
 * 2021: IJCAI
@@ -39,7 +39,7 @@ nav_order: 5
 ### **Program Committee**
 
 * <img alt="ACL: 2019--25" src="https://img.shields.io/badge/ACL-2019--25-blue?style=for-the-badge&labelColor=%23F25D27"> <img alt="EMNLP: 2016--24" src="https://img.shields.io/badge/EMNLP-2016--24-blue?style=for-the-badge&labelColor=%23F25D27"> 
-* <img alt="NeurIPS: 2022--25" src="https://img.shields.io/badge/NeurIPS-2022--25-blue?style=for-the-badge&labelColor=%23F25D27"> <img alt="ICML: 2022--25" src="https://img.shields.io/badge/ICML-2022--25-blue?style=for-the-badge&labelColor=%23F25D27"> <img alt="ICLR: 2023--26" src="https://img.shields.io/badge/ICLR-2023--26-blue?style=for-the-badge&labelColor=%23F25D27">
+* <img alt="NeurIPS: 2022--25" src="https://img.shields.io/badge/NeurIPS-2022--25-blue?style=for-the-badge&labelColor=%23F25D27"> <img alt="ICML: 2022--26" src="https://img.shields.io/badge/ICML-2022--26-blue?style=for-the-badge&labelColor=%23F25D27"> <img alt="ICLR: 2023--26" src="https://img.shields.io/badge/ICLR-2023--26-blue?style=for-the-badge&labelColor=%23F25D27">
 * <img alt="SIGIR: 2019--25" src="https://img.shields.io/badge/SIGIR-2019--25-blue?style=for-the-badge&labelColor=%23F25D27"> <img alt="WWW: 2019--25" src="https://img.shields.io/badge/WWW-2019--25-blue?style=for-the-badge&labelColor=%23F25D27"> <img alt="WSDM: 2021--24" src="https://img.shields.io/badge/WSDM-2021--24-blue?style=for-the-badge&labelColor=%23F25D27"> <img alt="KDD: 2021--23" src="https://img.shields.io/badge/KDD-2021--23-blue?style=for-the-badge&labelColor=%23F25D27"> <img alt="CIKM: 2020--23" src="https://img.shields.io/badge/CIKM-2020--23-blue?style=for-the-badge&labelColor=%23F25D27"> 
 * <img alt="AAAI: 2019--24" src="https://img.shields.io/badge/AAAI-2019--24-blue?style=for-the-badge&labelColor=%23F25D27"> <img alt="IJCAI: 2021--24" src="https://img.shields.io/badge/IJCAI-2021--24-blue?style=for-the-badge&labelColor=%23F25D27"> 
 
