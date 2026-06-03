@@ -130,7 +130,12 @@ ninja.data = [{
           section: "News",},{id: "news-one-paper-is-accepted-by-kdd-2026-about-interactive-recommendation-agent-congrats-to-jiakai",
           title: 'One paper is accepted by KDD 2026 about Interactive Recommendation Agent. Congrats to...',
           description: "",
-          section: "News",},{id: "people-0zhangshixuan",
+          section: "News",},{id: "people-0ssr",
+          title: '0ssr',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/0ssr/";
+            },},{id: "people-0zhangshixuan",
           title: '0zhangshixuan',
           description: "",
           section: "People",handler: () => {
