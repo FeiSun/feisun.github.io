@@ -16,6 +16,7 @@ nav_order: 5
 
 ### **Journal Reviews**
 
+* ACM TORS (Associate Editor)
 * TACL (standing reviewer)
 * CSUR, TOIS, TKDE, TASLP, TIST, JAIR
 
