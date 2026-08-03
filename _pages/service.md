@@ -14,9 +14,13 @@ nav_order: 5
 * [1st Workshop on Human-Centered Recommender Systems](https://human-centeredrec.github.io/) at WebConf 25
 * [Workshop on Natural Language Processing for Recommendations](https://wsdm2020-nlp4rec.github.io/) at WSDM 2020
 
-### **Journal Reviews**
+### **Journal Editorial Service**
 
 * ACM TORS (Associate Editor)
+* TMLR (Action Editor)
+
+### **Journal Reviewing**
+
 * TACL (standing reviewer)
 * CSUR, TOIS, TKDE, TASLP, TIST, JAIR
 
@@ -31,7 +35,7 @@ nav_order: 5
 
 ### **Senior Program Committee**
 
-* 2026: WSDM
+* 2027: WSDM
 * 2026: WSDM (short), WebConf, SIGIR, CIKM
 * 2025: WebConf (short), SIGIR, IJCAI, SIGIR-AP
 * 2022: AAAI
