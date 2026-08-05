@@ -35,7 +35,7 @@ nav_order: 5
 
 ### **Senior Program Committee**
 
-* 2027: WSDM
+* 2027: WSDM, AAAI
 * 2026: WSDM (short), WebConf, SIGIR, CIKM
 * 2025: WebConf (short), SIGIR, IJCAI, SIGIR-AP
 * 2022: AAAI
