@@ -21,6 +21,7 @@ nav_order: 5
 
 ### **Journal Reviewing**
 
+* Computational Linguistics (standing reviewer)
 * TACL (standing reviewer)
 * CSUR, TOIS, TKDE, TASLP, TIST, JAIR
 
