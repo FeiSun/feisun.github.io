@@ -142,7 +142,12 @@ ninja.data = [{
           section: "News",},{id: "news-two-papers-are-accepted-by-emnlp-2026-congrats-to-youdu-and-jingyi",
           title: 'Two papers are accepted by EMNLP 2026. Congrats to Youdu and Jingyi.',
           description: "",
-          section: "News",},{id: "people-0ssr",
+          section: "News",},{id: "people-0lyd",
+          title: '0lyd',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/0lyd/";
+            },},{id: "people-0ssr",
           title: '0ssr',
           description: "",
           section: "People",handler: () => {
@@ -152,11 +157,6 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/0zhangshixuan/";
-            },},{id: "people-0zhjw",
-          title: '0zhjw',
-          description: "",
-          section: "People",handler: () => {
-              window.location.href = "/people/0zhjw/";
             },},{id: "people-1chenweilun",
           title: '1chenweilun',
           description: "",
@@ -172,6 +172,11 @@ ninja.data = [{
           description: "",
           section: "People",handler: () => {
               window.location.href = "/people/1yaoyongzhou/";
+            },},{id: "people-1zhjw",
+          title: '1zhjw',
+          description: "",
+          section: "People",handler: () => {
+              window.location.href = "/people/1zhjw/";
             },},{id: "people-2wanli",
           title: '2wanli',
           description: "",
