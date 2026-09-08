@@ -31,7 +31,7 @@ nav_order: 5
 
 ### **Area Chair**
 
-* 2026: ARR, ACL, COLM
+* 2026: ARR, ACL, COLM, ICLR
 * 2025: ARR, ACL, EMNLP
 
 ### **Senior Program Committee**
