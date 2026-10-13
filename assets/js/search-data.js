@@ -245,6 +245,11 @@ ninja.data = [{
           description: "The 2nd Workshop on Human-Centered Recommender Systems",
           section: "Workshop",handler: () => {
               window.location.href = "/workshop/3_workshop/";
+            },},{id: "workshop-hcrs-thewebconf-2026",
+          title: 'HCRS@TheWebConf 2026',
+          description: "The 3rd Workshop on Human-Centered Recommender Systems",
+          section: "Workshop",handler: () => {
+              window.location.href = "/workshop/4_workshop/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
