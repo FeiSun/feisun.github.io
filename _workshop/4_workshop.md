@@ -1,6 +1,6 @@
 ---
 layout: page
-title: HCRS@TheWebConf 2026
+title: HCRS@TheWebConf 2027
 description: The 3rd Workshop on Human-Centered Recommender Systems
 img: assets/img/workshop/hcrs_www2027.png
 redirect: https://hcrs2027.github.io/
