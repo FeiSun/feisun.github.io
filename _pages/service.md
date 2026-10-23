@@ -9,6 +9,7 @@ nav_order: 5
 
 ### **Organizing Committee**
 
+* [3rd Workshop on Human-Centered Recommender Systems](https://hcrs2027.github.io/) at WebConf 2
 * [2nd Workshop on Human-Centered Recommender Systems](https://hcrec.github.io/) at WebConf 26
 * [SIGIR-AP 2025](https://www.sigir-ap.org/sigir-ap-2025/)  sponsor chair
 * [1st Workshop on Human-Centered Recommender Systems](https://human-centeredrec.github.io/) at WebConf 25

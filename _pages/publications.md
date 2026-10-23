@@ -15,6 +15,13 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+<!-- Entries marked with preprint={true} in papers.bib are listed here, above the yearly groups. -->
+{% capture preprint_count %}{% bibliography_count --query @*[preprint=true] %}{% endcapture %}
+{% if preprint_count != '0' %}
+<h2 class="bibliography">Preprint</h2>
+{% bibliography --group_by none --query @*[preprint=true] %}
+{% endif %}
+
+{% bibliography --query @*[preprint!=true] %}
 
 </div>
